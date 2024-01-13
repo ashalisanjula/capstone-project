@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+}
+
+.navbarSide {
+    width: 1240px;
+    height: 1119px;
+    background: var(--secondary-color);
+}
+
+.tabSection {
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab a {
+    text-decoration: none;
+    padding: 15px 90px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    background: var(--primary-color);
+}
+
+.tab .active {
+    padding: 12px 90px;
+    background: none;
+    border: 4px solid var(--primary-color);
+}
+
+.myWork {
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.myWork span {
+    color: white;
+    font-size: 24px;
+}
+
+.hr1 {
+    width: 95%;
+    background-color: white;
+    height: 1.7px;
+    border: 0 none;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.overviewSection {
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+    gap: 100px;
+}
+
+.collectionOverview {
+    color: white;
+    font-size: 20px;
+}
+
+.collectionBox {
+    margin-top: 150px;
+    margin-left: 300px;
+    width: 540px;
+}
+
+.box {
+    padding: 20px;
+    background: var(--primary-color);
+    border-radius: 15px;
+}
+
+.inputBox {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.inputBox input {
+    width: 400px;
+    padding-top: 10px;
+    background: var(--primary-color);
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.inputBox input:hover {
+    color: white;
+}
+
+.btn {
+    margin-top: 80px;
+    margin-left: 48px;
+    align-items: center;
+    width: 404px;
+}
+
+.btn button {
+    padding: 10px 0;
+    width: 404px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    font-size: 24px;
+    color: white;
+    background: var(--secondary-color);
+    letter-spacing: 1.5px;
+}
