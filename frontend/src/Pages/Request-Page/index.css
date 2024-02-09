@@ -1,0 +1,63 @@
+.workplace {
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.workplace span {
+    color: white;
+    font-size: 24px;
+}
+
+.requestBox {
+    margin-top: 150px;
+    margin-left: 300px;
+    width: 540px;
+}
+
+.box {
+    padding: 20px;
+    background: var(--primary-color);
+    border-radius: 15px;
+}
+
+.inputBox {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.inputBox input {
+    width: 400px;
+    padding-top: 10px;
+    background: var(--primary-color);
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.inputBox input:hover {
+    color: white;
+}
+
+.btn {
+    margin-top: 80px;
+    margin-left: 48px;
+    align-items: center;
+    width: 404px;
+}
+
+.btn button {
+    padding: 10px 0;
+    width: 404px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    font-size: 24px;
+    color: white;
+    background: var(--secondary-color);
+    letter-spacing: 1.5px;
+}
