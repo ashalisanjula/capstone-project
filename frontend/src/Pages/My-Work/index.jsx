@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css';
 import Sidebar from '../../Components/SideBar';
 import Navbar from '../../Components/NavBar';
+import Tabs from '../../Components/TabSection';
 
 
 const My_Work = () => {
@@ -17,8 +18,8 @@ const My_Work = () => {
 
             <div className='tabSection'>
 
- 
-               
+               <Tabs />
+            
             </div>
 
             <div className='myWork'>
