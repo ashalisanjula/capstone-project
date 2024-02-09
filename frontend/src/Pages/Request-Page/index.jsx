@@ -58,12 +58,25 @@ const Request = () => {
                         <input type='text' placeholder='Request URL' />
                     </div>
 
-                    <div className='inputBox'>
-                        <input type='text' placeholder='Request URL' />
+                    <div className='methodBox'>
+                        <label className='lable'>Request Method</label>
+                        <select id="method-select">
+                            <option value="GET">GET</option>
+                            <option value="POST">POST</option>
+                            <option value="PUT">PUT</option>
+                        </select>
                     </div>
 
-                    <div className='btn'>
-                        <button>Invite</button>
+                    <div className='inputBox'>
+                        <input type='text' placeholder='Request Headers' />
+                    </div>
+
+                    <div className='inputBox'>
+                        <input type='text' placeholder='Request Body' />
+                    </div>
+
+                    <div className='inputBox'>
+                        <input type='text' placeholder='Query Params' />
                     </div>
 
                 </div>

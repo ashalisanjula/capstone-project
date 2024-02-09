@@ -35,29 +35,37 @@
     font-size: 20px;
 }
 
+.methodBox {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.methodBox label {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 60px;
+    font-size: 20px;
+    color: white;
+}
+
+.methodBox #method-select {
+    padding: 12px 68px;
+    background: var(--secondary-color);
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+.methodBox option {
+    color: white;
+}
+
 ::placeholder {
     color: white;
 }
 
 .inputBox input:hover {
     color: white;
-}
-
-.btn {
-    margin-top: 80px;
-    margin-left: 48px;
-    align-items: center;
-    width: 404px;
-}
-
-.btn button {
-    padding: 10px 0;
-    width: 404px;
-    text-align: center;
-    border: none;
-    border-radius: 15px;
-    font-size: 24px;
-    color: white;
-    background: var(--secondary-color);
-    letter-spacing: 1.5px;
 }
