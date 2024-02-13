@@ -1,5 +1,6 @@
 // src/RegisterForm.js
 import React, { useState } from 'react';
+import Navbar from '../../Components/NavBar';
 
 const Register = ({ onClose }) => {
   const [username, setUsername] = useState('');
@@ -21,6 +22,8 @@ const Register = ({ onClose }) => {
   };
 
   return (
+    <div>
+      <Navbar />
     <div className="register-form">
       <h2>Register</h2>
       <label>
@@ -40,6 +43,7 @@ const Register = ({ onClose }) => {
         <input type="password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} />
       </label>
       <button onClick={handleRegister}>Register</button>
+    </div>
     </div>
   );
 };

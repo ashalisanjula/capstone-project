@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from '../../Components/NavBar'
 
-const Support = () => {
+const Explore = () => {
   return (
-    <div><Navbar /></div>
+    <div>
+        <Navbar />
+    </div>
   )
 }
 
-export default Support
+export default Explore

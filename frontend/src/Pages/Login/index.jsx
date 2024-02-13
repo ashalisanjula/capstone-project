@@ -1,14 +1,27 @@
 // src/Login.js (note the lowercase 'l')
 import React from 'react';
+import Navbar from '../../Components/NavBar';
+import { useNavigate } from 'react-router-dom';
 
 const Login = ({ onRegisterClick }) => {
+  const navigate = useNavigate();
+
   const handleSubmit = (e) => {
     e.preventDefault();
     // Add logic for handling form submission (e.g., API call, authentication)
     console.log('Form submitted!');
   };
 
+  const register = () => {
+    navigate('/register');
+  }
+  const login = () => {
+    navigate('/recent_workplaces');
+  }
+
   return (
+    <div>
+      <Navbar />
     <div className="wrapper">
       <span className="icon-close"><ion-icon name="close"></ion-icon></span>
       <div className="form-box login">
@@ -34,13 +47,13 @@ const Login = ({ onRegisterClick }) => {
             </label>
             <a href="#!">Forgot Password?</a>
           </div>
-          <button type="submit" className="btn">
+          <button type="submit" className="btn" onClick={login}>
             Login
           </button>
           <div className="login-register">
             <p>
               Don't have an account?
-               <button type="button" className="register-link" onClick={onRegisterClick}>
+               <button type="button" className="register-link" onClick={register}>
                 {' '}
                   Register
               </button>
@@ -48,6 +61,7 @@ const Login = ({ onRegisterClick }) => {
           </div>
         </form>
       </div>
+    </div>
     </div>
   );
 };
