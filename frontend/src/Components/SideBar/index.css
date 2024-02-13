@@ -29,12 +29,13 @@
 }
 
 .work {
+    margin-right: 60px;
     font-size: 18px;
 }
 
 .pluse {
     position: absolute;
-    top: 196px;
+    top: 188px;
     left: 325px;
 }
 

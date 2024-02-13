@@ -14,26 +14,6 @@
     margin-right: 10px;
 }
 
-.tabs {
-    display: flex;
-    justify-content: space-between;
-}
-
-.tab a {
-    text-decoration: none;
-    padding: 15px 90px;
-    border-radius: 15px;
-    font-size: 20px;
-    color: white;
-    background: var(--primary-color);
-}
-
-.tab .active {
-    padding: 12px 90px;
-    background: none;
-    border: 4px solid var(--primary-color);
-}
-
 .myWork {
     margin-top: 60px;
     margin-left: 10px;
