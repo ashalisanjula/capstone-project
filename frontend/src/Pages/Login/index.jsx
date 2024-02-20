@@ -1,4 +1,3 @@
-// src/Login.js (note the lowercase 'l')
 import React from 'react';
 import Navbar from '../../Components/NavBar';
 import { useNavigate } from 'react-router-dom';

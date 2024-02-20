@@ -1,28 +1,21 @@
-// src/App.js
 import React, { useState } from 'react';
-//import { Routes, Route, Link } from 'react-router-dom';
 import Login from '../Login';
-import About from '../About'; 
-import Contact from '../Contact'; 
-import Support from '../Support';
 import Register from '../Register';
-import Home from '../Home';
 import './index.css';
-import logo from "../../Assets/logo.png";
 import Navbar from '../../Components/NavBar';
 
 const Main = () => {
   const [showLogin, setShowLogin] = useState(false);
   const [showRegisterForm, setShowRegisterForm] = useState(false);
 
-  const handleLoginButtonClick = () => {
-    setShowLogin(!showLogin);
-    setShowRegisterForm(false); // Close register form if it's open
-  };
+  // const handleLoginButtonClick = () => {
+  //   setShowLogin(!showLogin);
+  //   setShowRegisterForm(false); 
+  // };
 
   const handleRegisterButtonClick = () => {
     setShowRegisterForm(true);
-    setShowLogin(false); // Close login form if it's open
+    setShowLogin(false); 
   };
 
   const handleRegisterFormClose = () => {
