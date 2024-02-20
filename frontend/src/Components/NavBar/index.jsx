@@ -2,8 +2,37 @@ import React from 'react';
 import './index.css';
 import Search from '../../Assets/search.png';
 import User from '../../Assets/user.png';
+import { Link, useNavigate } from 'react-router-dom';
+import Login from '../../Pages/Login';
 
 const Navbar = () => {
+    const nav_links = [
+        {
+            path: '/home',
+            diplay: 'Home',
+        },
+        {
+            path: '/about',
+            diplay: 'About',
+        },
+        {
+            path: '/support',
+            diplay: 'Support',
+        },
+        {
+            path: '/explore',
+            diplay: 'Explore',
+        },
+        {
+            path: '/contact',
+            diplay: 'Contact',
+        },
+    ]
+
+    const navigte = useNavigate();
+    const login = () => {
+        navigte('/login');
+    }
 
   return (
     <div className='navbar'>
@@ -20,14 +49,13 @@ const Navbar = () => {
 
                 <div className='list'>
                     <div className='links'>
-                        <li><a href='#'>Home</a></li>
-                        <li><a href='#'>About</a></li>
-                        <li><a href='#'>Support</a></li>
-                        <li><a href='#'>Explore</a></li>
-                        <li><a href='#'>Contact</a></li>
+                        {nav_links.map(link => <Link
+                            key={link.path}
+                            to={link.path}
+                            href={link.path}>{link.diplay}</Link>)}
                         <li>
-                            <a href='#'>
-                                <img src={User} alt='' />
+                            <a >
+                                <img onClick={login} src={User} alt='' />
                             </a>
                         </li>
                     </div>
