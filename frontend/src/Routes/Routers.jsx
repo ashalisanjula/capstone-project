@@ -9,6 +9,7 @@ import Contact from '../Pages/Contact';
 import Login from '../Pages/Login';
 import Register from '../Pages/Register';
 import Recent_Workplaces from '../Pages/Recent_Workplaces';
+import My_Work from '../Pages/My-Work';
 
 
 const Routers = () => {
@@ -23,6 +24,7 @@ const Routers = () => {
         <Route path='/login' element={<Login/>} />
         <Route path='/register' element={<Register/>} />
         <Route path='/recent_workplaces' element={<Recent_Workplaces/>} />
+        <Route path='/my_work' element={<My_Work/>} />
     </Routes>
   )
 }
