@@ -3,9 +3,15 @@ import './index.css';
 import Sidebar from '../../Components/SideBar';
 import Navbar from '../../Components/NavBar';
 import Tabs from '../../Components/TabSection';
-
+import { useNavigate } from 'react-router-dom';
 
 const My_Work = () => {
+
+    const navigate = useNavigate();
+
+    const collection_overview = () => {
+        navigate('/collection_overview');
+    }
 
   return (
     <div className='container'>
@@ -33,15 +39,15 @@ const My_Work = () => {
             <div className='overviewSection'>
 
                 <div className='collectionOverview'>
-                    <span>Collection Overview</span>
+                    <button onClick={collection_overview}><span>Collection Overview</span></button>
                 </div>
 
                 <div className='collectionOverview'>
-                    <span>Request</span>
+                    <button><span>Request</span></button>
                 </div>
 
                 <div className='collectionOverview'>
-                    <span>Response</span>
+                    <button><span>Response</span></button>
                 </div>
 
             </div>

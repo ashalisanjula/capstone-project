@@ -1,6 +1,4 @@
 .sidebar {
-    /* width: 402px;
-    height: 1119px; */
     height: 100vh;
     background: var(--primary-color);
 }

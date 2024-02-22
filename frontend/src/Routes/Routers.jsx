@@ -10,7 +10,7 @@ import Login from '../Pages/Login';
 import Register from '../Pages/Register';
 import Recent_Workplaces from '../Pages/Recent_Workplaces';
 import My_Work from '../Pages/My-Work';
-
+// import Request from '../Pages/Request-Page';
 
 const Routers = () => {
   return (
@@ -25,6 +25,7 @@ const Routers = () => {
         <Route path='/register' element={<Register/>} />
         <Route path='/recent_workplaces' element={<Recent_Workplaces/>} />
         <Route path='/my_work' element={<My_Work/>} />
+        <Route path='/collection_overview' element={<My_Work/>} />
     </Routes>
   )
 }
