@@ -5,8 +5,15 @@ import Pluse from '../../Assets/plusmath.png';
 import User from '../../Assets/user.png';
 import Trash from '../../Assets/fullTrash.png';
 import Navbar from '../../Components/NavBar';
+import { useNavigate } from 'react-router-dom';
 
 const Recent_Workplaces = () => {
+
+    const navigate = useNavigate();
+
+    const my_work = () => {
+        navigate('/my_work');
+    }
 
     return (
     <div className='container1'>
@@ -123,7 +130,7 @@ const Recent_Workplaces = () => {
                     </div>
 
                     <div className='createImg'>
-                        <img src={Pluse} alt='' />
+                        <img src={Pluse} alt='' onClick={my_work} />
                     </div>
                 </div>
 
