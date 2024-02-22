@@ -4,7 +4,7 @@
 
 .navbarSide {
     width: 1240px;
-    height: 1119px;
+    max-height: 100vh;
     background: var(--secondary-color);
 }
 

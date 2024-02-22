@@ -60,7 +60,7 @@ const Recent_Workplaces = () => {
                 </div>
 
             </div>
-
+ 
             <div className='userSection1'>
                 <div className='user'>
                     <div className='userImage'>
@@ -72,7 +72,7 @@ const Recent_Workplaces = () => {
                         <span>hasharanethmi2020@gmail.com</span>
                     </div>
                 </div>
-            </div>
+            </div> 
 
         </div>
 
