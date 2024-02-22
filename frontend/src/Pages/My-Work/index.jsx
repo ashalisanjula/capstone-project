@@ -10,16 +10,18 @@ const My_Work = () => {
   return (
     <div className='container'>
 
-        <Sidebar />
+        <div className='sidebar2'>
+            <Sidebar />
+        </div>
 
         <div className='navbarSide'>
-            
-            <Navbar />
 
+            <div className='navbar2'>
+                <Navbar />
+            </div>
+            
             <div className='tabSection'>
-
-               <Tabs />
-            
+                <Tabs />
             </div>
 
             <div className='myWork'>

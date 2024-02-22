@@ -2,14 +2,27 @@
     display: flex;
 }
 
+.sidebar2 {
+    width: 370px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    height: 100vh;
+    background: var(--primary-color);
+
+}
+
 .navbarSide {
     width: 1240px;
-    max-height: 100vh;
     background: var(--secondary-color);
 }
 
+.navbar2 {
+    margin-top: -20px;
+}
+
 .tabSection {
-    margin-top: 80px;
+    margin-top: 55px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -25,7 +38,7 @@
 }
 
 .hr1 {
-    width: 95%;
+    width: 98%;
     background-color: white;
     height: 1.7px;
     border: 0 none;
@@ -47,8 +60,8 @@
 }
 
 .collectionBox {
-    margin-top: 150px;
-    margin-left: 300px;
+    margin-top: 85px;
+    margin-left: 320px;
     width: 540px;
 }
 
