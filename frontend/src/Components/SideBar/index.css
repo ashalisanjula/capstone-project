@@ -1,6 +1,7 @@
 .sidebar {
-    width: 402px;
-    height: 1119px;
+    /* width: 402px;
+    height: 1119px; */
+    height: 100vh;
     background: var(--primary-color);
 }
 
@@ -9,11 +10,12 @@
     margin-right: 50px;
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: -25px;
 }
 
 .logo {
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .title {
@@ -23,7 +25,6 @@
 }
 
 .workplace {
-    margin-top: 70px;
     margin-left: 20px;
     color: white;
 }
@@ -35,7 +36,7 @@
 
 .pluse {
     position: absolute;
-    top: 188px;
+    top: 152px;
     left: 325px;
 }
 
@@ -55,6 +56,10 @@
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.collectionLeft {
+    margin-top: 275px;
 }
 
 .icons {
@@ -85,7 +90,7 @@
 .collectionRight {
     margin-top: 5px;
     width: 245px;
-    height: 726px;
+    height: 450px;
     border-radius: 15px;
     background: var(--secondary-color);
 }
@@ -123,7 +128,7 @@
 }
 
 .userSection {
-    margin-top: 40px;
+    margin-top: 18px;
 }
 
 .user {
@@ -149,3 +154,4 @@
 .userName span {
     font-size: 14px;
 }
+
