@@ -20,11 +20,14 @@
 
 .overviewSection {
     margin-left: 10px;
+}
+
+.collectionOverview button{
     cursor: pointer;
 }
 
 .requestBox {
-    margin-top: 40px;
+    margin-top: 35px;
     margin-left: 300px;
     width: 540px;
 }
