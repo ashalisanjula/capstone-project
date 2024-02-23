@@ -90,19 +90,27 @@ const Request = () => {
                         </select>
                     </div>
 
-                    <div className='inputBox'>
-                        <input type='text' placeholder='Request Headers' />
-                    </div>
+                    <div className='flex1'>
+                        <div className='inputBox1'>
+                            <input type='text' placeholder='Request Headers' />
+                        </div>
 
-                    <div className='inputBox'>
-                        <input type='text' placeholder='Request Body' />
+                        <div className='inputBox1'>
+                            <input type='text' placeholder='Request Body' />
+                        </div>
                     </div>
 
                     <div className='inputBox'>
                         <input type='text' placeholder='Query Params' />
                     </div>
 
+                    <div className='buttonBox'>
+                        <button>Send Request</button>
+                    </div>
+
                 </div>
+
+                
             </div>
 
         </div>
