@@ -13,6 +13,10 @@ const My_Work = () => {
         navigate('/collection_overview');
     }
 
+    const request = () => {
+        navigate('/request');
+    }
+
   return (
     <div className='container'>
 
@@ -43,7 +47,7 @@ const My_Work = () => {
                 </div>
 
                 <div className='collectionOverview'>
-                    <button><span>Request</span></button>
+                    <button onClick={request}><span>Request</span></button>
                 </div>
 
                 <div className='collectionOverview'>

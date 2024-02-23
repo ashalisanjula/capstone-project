@@ -9,12 +9,20 @@ const Request = () => {
   return (
     <div className='container'>
 
-        <Sidebar />
+        <div className='sidebar3'>
+
+            <Sidebar />
+
+        </div>
 
         <div className='navbarSide'>
-            
-            <Navbar />
 
+            <div className='navbar3'>
+                
+                <Navbar />
+                
+            </div>
+            
             <div className='tabSection'>
 
                 <Tabs />
@@ -46,15 +54,19 @@ const Request = () => {
             <div className='requestBox'>
                 <div className='box'>
 
-                    <div className='inputBox'>
-                        <input type='text' placeholder='Request ID' />
+                    <div className='flex1'>
+
+                        <div className='inputBox1'>
+                            <input type='text' placeholder='Request ID' />
+                        </div>
+
+                        <div className='inputBox1'>
+                            <input type='text' placeholder='Request Name' />
+                        </div>
+
                     </div>
 
-                    <div className='inputBox'>
-                        <input type='text' placeholder='Request Name' />
-                    </div>
-
-                    <div className='inputBox'>
+                   <div className='inputBox'>
                         <input type='text' placeholder='Request URL' />
                     </div>
 
