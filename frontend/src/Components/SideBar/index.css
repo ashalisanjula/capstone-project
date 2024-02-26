@@ -8,12 +8,16 @@
     margin-right: 50px;
     display: flex;
     text-align: center;
-    gap: 15px;
+    gap: 30px;
     margin-bottom: -25px;
 }
 
 .logo {
-    padding-top: 30px;
+    padding-top: 22px;
+}
+
+.logo img {
+    width: 70px;
 }
 
 .title {
@@ -22,7 +26,8 @@
     letter-spacing: 3px;
 }
 
-.workplace {
+.workplace1 {
+    margin-top: 40px;
     margin-left: 20px;
     color: white;
 }
@@ -34,7 +39,7 @@
 
 .pluse {
     position: absolute;
-    top: 152px;
+    top: 130px;
     left: 325px;
 }
 
@@ -57,7 +62,7 @@
 }
 
 .collectionLeft {
-    margin-top: 275px;
+    margin-top: 255px;
 }
 
 .icons {
@@ -88,7 +93,7 @@
 .collectionRight {
     margin-top: 5px;
     width: 245px;
-    height: 450px;
+    height: 478px;
     border-radius: 15px;
     background: var(--secondary-color);
 }
@@ -126,7 +131,7 @@
 }
 
 .userSection {
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
 .user {
