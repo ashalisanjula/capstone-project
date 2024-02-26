@@ -11,6 +11,7 @@ import Register from '../Pages/Register';
 import Recent_Workplaces from '../Pages/Recent_Workplaces';
 import My_Work from '../Pages/My-Work';
 import Request from '../Pages/Request-Page';
+import Response from '../Pages/Response-Page';
 
 const Routers = () => {
   return (
@@ -27,6 +28,7 @@ const Routers = () => {
         <Route path='/my_work' element={<My_Work/>} />
         <Route path='/collection_overview' element={<My_Work/>} />
         <Route path='/request' element={<Request/>} />
+        <Route path='/response' element={<Response/>} />
     </Routes>
   )
 }

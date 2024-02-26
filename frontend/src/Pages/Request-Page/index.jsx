@@ -17,6 +17,10 @@ const Request = () => {
         navigate('/request');
     }
 
+    const response = () => {
+        navigate('/response');
+    }
+
   return (
     <div className='container'>
 
@@ -57,7 +61,7 @@ const Request = () => {
                 </div>
 
                 <div className='collectionOverview'>
-                    <span>Response</span>
+                    <button onClick={response}><span>Response</span></button>
                 </div>
 
             </div>

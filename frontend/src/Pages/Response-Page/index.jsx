@@ -3,8 +3,23 @@ import Sidebar from '../../Components/SideBar';
 import Navbar from '../../Components/NavBar';
 import Tabs from '../../Components/TabSection';
 import './index.css';
+import { useNavigate } from 'react-router-dom';
 
 const Response = () => {
+
+    const navigate = useNavigate();
+
+    const collection_overview = () => {
+        navigate('/collection_overview');
+    }
+
+    const request = () => {
+        navigate('/request');
+    }
+
+    const response = () => {
+        navigate('/response');
+    }
 
   return (
     <div className='container'>
@@ -32,15 +47,15 @@ const Response = () => {
             <div className='overviewSection'>
 
                 <div className='collectionOverview'>
-                    <button><span>Collection Overview</span></button>
+                    <button onClick={collection_overview}><span>Collection Overview</span></button>
                 </div>
 
                 <div className='collectionOverview'>
-                    <button><span>Request</span></button>
+                    <button onClick={request}><span>Request</span></button>
                 </div>
 
                 <div className='collectionOverview'>
-                    <button><span>Response</span></button>
+                    <button onClick={response}><span>Response</span></button>
                 </div>
 
             </div>
