@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import Logo from '../../Assets/logo.png';
+import Logo from '../../Assets/logo1.png';
 import Pluse from '../../Assets/plusmath.png';
 import Dis from '../../Assets/disconnected.png';
 import Open from '../../Assets/openEndWrench.png';
@@ -25,7 +25,7 @@ const Sidebar = () => {
                 
             </div>
 
-           <div className='workplace'>
+           <div className='workplace1'>
 
                 <div className='work'>
                     <h3>Workplaces</h3>
@@ -56,11 +56,6 @@ const Sidebar = () => {
                         <div className='icon'>
                             <img src={Open} alt='' /><br />
                             <span>Setting</span>
-                        </div>
-
-                        <div className='icon'>
-                            <img src={Dis} alt='' /><br />
-                            <span>Collections</span>
                         </div>
 
                     </div>
