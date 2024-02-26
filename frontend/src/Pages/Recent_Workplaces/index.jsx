@@ -7,7 +7,7 @@ import Trash from '../../Assets/fullTrash.png';
 import Navbar from '../../Components/NavBar';
 import { useNavigate } from 'react-router-dom';
 
-const Recent_Workspaces = () => {
+const Recent_Workplaces = () => {
 
     const navigate = useNavigate();
 
@@ -144,4 +144,4 @@ const Recent_Workspaces = () => {
   )
 }
 
-export default Recent_Workspaces;
+export default Recent_Workplaces;
