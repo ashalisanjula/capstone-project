@@ -5,7 +5,7 @@ import Navbar from '../../Components/NavBar';
 import Tabs from '../../Components/TabSection';
 import { useNavigate } from 'react-router-dom';
 
-const My_Work = () => {
+const Collection_Overview = () => {
 
     const navigate = useNavigate();
 
@@ -15,6 +15,10 @@ const My_Work = () => {
 
     const request = () => {
         navigate('/request');
+    }
+
+    const response = () => {
+        navigate('/response');
     }
 
   return (
@@ -51,7 +55,7 @@ const My_Work = () => {
                 </div>
 
                 <div className='collectionOverview'>
-                    <button><span>Response</span></button>
+                    <button onClick={response}><span>Response</span></button>
                 </div>
 
             </div>
@@ -79,4 +83,4 @@ const My_Work = () => {
   )
 }
 
-export default My_Work;
+export default Collection_Overview;
