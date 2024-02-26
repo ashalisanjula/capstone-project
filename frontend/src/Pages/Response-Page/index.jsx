@@ -2,6 +2,7 @@ import React from 'react';
 import Sidebar from '../../Components/SideBar';
 import Navbar from '../../Components/NavBar';
 import Tabs from '../../Components/TabSection';
+import './index.css';
 
 const Response = () => {
 
@@ -44,7 +45,7 @@ const Response = () => {
 
             </div>
 
-            <div className='collectionBox'>
+            <div className='collectionBox2'>
                 <div className='box'>
 
                     <div className='inputBox'>
