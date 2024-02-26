@@ -93,7 +93,7 @@
 .collectionRight {
     margin-top: 5px;
     width: 245px;
-    height: 470px;
+    height: 478px;
     border-radius: 15px;
     background: var(--secondary-color);
 }
@@ -131,7 +131,7 @@
 }
 
 .userSection {
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
 .user {
