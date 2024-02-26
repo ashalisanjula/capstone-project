@@ -47,7 +47,11 @@ const Collection_Overview = () => {
             <div className='overviewSection'>
 
                 <div className='collectionOverview'>
-                    <button onClick={collection_overview}><span>Collection Overview</span></button>
+                    <button onClick={collection_overview}>
+                        <div className='active'>
+                            <span>Collection Overview</span>
+                        </div>
+                    </button>
                 </div>
 
                 <div className='collectionOverview'>

@@ -54,6 +54,10 @@
     gap: 100px;
 }
 
+.overviewSection .active {
+    border-bottom: 2px solid white;
+}
+
 .collectionOverview {
     color: white;
     font-size: 20px;
