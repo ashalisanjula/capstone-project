@@ -1,13 +1,13 @@
 import React from 'react';
 import './index.css';
-import Logo from '../../Assets/logo.png';
+import Logo from '../../Assets/logo1.png';
 import Pluse from '../../Assets/plusmath.png';
 import User from '../../Assets/user.png';
 import Trash from '../../Assets/fullTrash.png';
 import Navbar from '../../Components/NavBar';
 import { useNavigate } from 'react-router-dom';
 
-const Recent_Workplaces = () => {
+const Recent_Workspaces = () => {
 
     const navigate = useNavigate();
 
@@ -89,7 +89,7 @@ const Recent_Workplaces = () => {
 
             <div className='recentSection'>
                 <div className='recentTitle'>
-                    <span>Recently Visited Workplaces</span>
+                    <span>Recently Visited Workspaces</span>
                 </div>
 
                 <div className='recentWork'>
@@ -105,7 +105,7 @@ const Recent_Workplaces = () => {
 
                     <div className='recent'>
                         <div className='work'>
-                            <input type='text' placeholder='NewWorkplace' />
+                            <input type='text' placeholder='NewWorkspace' />
                         </div>
 
                         <div className='delete'>
@@ -115,7 +115,7 @@ const Recent_Workplaces = () => {
 
                     <div className='recent'>
                         <div className='work'>
-                            <input type='text' placeholder='NewWorkplace2' />
+                            <input type='text' placeholder='NewWorkspace2' />
                         </div>
 
                         <div className='delete'>
@@ -126,7 +126,7 @@ const Recent_Workplaces = () => {
 
                 <div className='createSection'>
                     <div className='createTitle'>
-                        <span>Create New Workplace</span>
+                        <span>Create New Workspace</span>
                     </div>
 
                     <div className='createImg'>
@@ -144,4 +144,4 @@ const Recent_Workplaces = () => {
   )
 }
 
-export default Recent_Workplaces;
+export default Recent_Workspaces;

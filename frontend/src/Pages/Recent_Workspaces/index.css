@@ -3,6 +3,7 @@
 }
 
 .sidebar1 {
+    width: 350px;
     margin-top: -6px;
     margin-left: -10px;
     margin-bottom: -10px;
@@ -63,6 +64,8 @@
 }
 
 .hr2 {
+    margin-right: 40px;
+    width: 94%;
     border: 1.5px solid white;
 }
 
