@@ -57,7 +57,11 @@ const Request = () => {
                 </div>
 
                 <div className='collectionOverview'>
-                    <button onClick={request}><span>Request</span></button>
+                        <button onClick={request}>
+                            <div className='active'>
+                                <span>Request</span>
+                            </div>
+                        </button>
                 </div>
 
                 <div className='collectionOverview'>
