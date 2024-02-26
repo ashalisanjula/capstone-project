@@ -55,7 +55,11 @@ const Response = () => {
                 </div>
 
                 <div className='collectionOverview'>
-                    <button onClick={response}><span>Response</span></button>
+                    <button onClick={response}>
+                        <div className='active'>
+                            <span>Response</span>
+                        </div>
+                    </button>
                 </div>
 
             </div>
