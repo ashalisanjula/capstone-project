@@ -68,7 +68,7 @@ const My_Work = () => {
                     </div>
 
                     <div className='btn'>
-                        <button>Invite</button>
+                        <button>Create</button>
                     </div>
 
                 </div>
