@@ -1,8 +1,9 @@
 /* app.css */
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #090E2E; /* Corrected background color value with # */
+  background-color: #090E2E;
   color: #333;
 }
 
@@ -10,7 +11,11 @@ body {
   max-width: 400px;
   max-height: fit-content;
   margin: 50px auto;
+<<<<<<< HEAD
+  background-color: #202650;
+=======
   background-color:#202650;
+>>>>>>> 60ecd8267b7462cb069a5779c151ebdf4cf859f3
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -18,10 +23,14 @@ body {
 
 .form-box {
   text-align: center;
+<<<<<<< HEAD
+  color: white;
+=======
 }
 
 .form-box.login {
   color: white; /* Blue color */
+>>>>>>> 60ecd8267b7462cb069a5779c151ebdf4cf859f3
 }
 
 .input-box {
@@ -42,6 +51,13 @@ body {
   margin-bottom: 5px;
   border: 0.1px solid #ccc;
   border-radius: 1px;
+<<<<<<< HEAD
+  background-color: #090E2E;
+}
+
+.custom-input::placeholder {
+  opacity: 0.4;
+=======
   background-color: #090E2E; /* Blue color */
 
 
@@ -49,6 +65,7 @@ body {
 
 .custom-input::placeholder {
   opacity: 0.4; /* Adjust the opacity value as needed */
+>>>>>>> 60ecd8267b7462cb069a5779c151ebdf4cf859f3
 }
 
 .remember-forget {
@@ -61,6 +78,16 @@ body {
 .btn {
   background-color: #090E2E;
   color: #fff;
+<<<<<<< HEAD
+  padding: 10px 15px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+=======
   padding: 10px 15px; /* Adjusted padding */
   width: 150px; /* Set a fixed width */
   height: 40px; /* Set a fixed height */
@@ -70,6 +97,7 @@ body {
   margin: 0 auto; /* Center the button horizontally */
   display: block;
   
+>>>>>>> 60ecd8267b7462cb069a5779c151ebdf4cf859f3
 }
 
 
@@ -83,30 +111,31 @@ body {
   margin-left: 10px;
 }
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 60ecd8267b7462cb069a5779c151ebdf4cf859f3
 nav {
-  background-color: #090E2E; /* Background color for the navigation bar */
-  padding: 10px; /* Padding around the navigation */
+  background-color: #090E2E;
+  padding: 10px;
   text-align: left;
-  
 }
 
 .nav-item {
-  margin: 75px;/* Spacing between navigation items */
-  text-decoration: none; /* Remove default underline on links */
-  color: #dfe2e6; /* Text color - #212529 is a dark gray color */
-  font-family: 'Inter', sans-serif; /* Use Inter font */
-  font-weight: bold; /* Bold font */
+  margin: 75px;
+  text-decoration: none;
+  color: #dfe2e6;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
 }
 
 .nav-item:hover {
-  color: #ffcc00; /* Change text color on hover */
+  color: #ffcc00;
 }
 
-/* Set the navigation bar to spread 100% width of the page */
 nav {
   width: 100%;
-  box-sizing: border-box; /* Include padding in the width calculation */
+  box-sizing: border-box;
 }
 
 .navbar {
@@ -117,13 +146,15 @@ nav {
 }
 
 .login-button {
-  margin-left: auto; /* Move the login button to the right by taking up remaining space */
+  margin-left: auto;
 }
 
 .nav-item {
   margin-right: 10px;
 }
 
+<<<<<<< HEAD
+=======
 .login-container {
   /* Your existing styles for login container */
 }
@@ -213,35 +244,50 @@ nav {
   /* Add other styles for the blurred background if necessary */
 }
 
+>>>>>>> 60ecd8267b7462cb069a5779c151ebdf4cf859f3
 .login-container,
 .register-form-container {
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 50%; /* Adjust this value to set the initial vertical position */
+  top: 50%;
   left: 0;
   width: 100%;
-  transform: translateY(-50%); /* Center vertically */
+  transform: translateY(-50%);
 }
 
 .login-form,
 .register-form {
-  /* Add specific styles for the login and register forms if needed */
-}
-
-/* Adjustments for better aesthetics */
-.login-form {
   padding: 20px;
+<<<<<<< HEAD
+  background-color: #202650;
+=======
   background-color:#202650;
+>>>>>>> 60ecd8267b7462cb069a5779c151ebdf4cf859f3
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.register-form {
-  padding: 20px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+.login-button,
+.register-form button {
+  background-color: #090E2E;
+  color: white;
+  padding: 10px 20px;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
+.login-button:hover,
+.register-form button:hover {
+  background-color: #6D6D71;
+}
+
+/* Add styles for the logo */
+.logo {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
