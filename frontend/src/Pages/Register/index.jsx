@@ -23,26 +23,71 @@ const Register = ({ onClose }) => {
   return (
     <div>
       <Navbar />
-    <div className="register-form">
-      <h2>Register</h2>
-      <label>
-        Username:
-        <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
-      </label>
-      <label>
-        Email:
-        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
-      </label>
-      <label>
-        Password:
-        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
-      </label>
-      <label>
-        Confirm Password:
-        <input type="password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} />
-      </label>
-      <button onClick={handleRegister}>Register</button>
-    </div>
+      <div className="wrapper">
+        <span className="icon-close">
+          <ion-icon name="close"></ion-icon>
+        </span>
+        <div className="form-box register">
+          <h2>Register</h2>
+          <form>
+            <div className="input-box">
+              <span className="icon">
+                <ion-icon name="person"></ion-icon>
+              </span>
+              <input
+                type="text"
+                required
+                placeholder="Username"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                className="custom-input"
+              />
+            </div>
+            <div className="input-box">
+              <span className="icon">
+                <ion-icon name="mail"></ion-icon>
+              </span>
+              <input
+                type="email"
+                required
+                placeholder="e-mail"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="custom-input"
+              />
+            </div>
+            <div className="input-box">
+              <span className="icon">
+                <ion-icon name="lock-closed"></ion-icon>
+              </span>
+              <input
+                type="password"
+                required
+                placeholder="Password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                className="custom-input"
+              />
+            </div>
+            <div className="input-box">
+              <span className="icon">
+                <ion-icon name="lock-closed"></ion-icon>
+              </span>
+              <input
+                type="password"
+                required
+                placeholder="Confirm Password"
+                value={confirmPassword}
+                onChange={(e) => setConfirmPassword(e.target.value)}
+                className="custom-input"
+              />
+            </div>
+            <button type="button" className="btn" onClick={handleRegister}>
+              Register
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 };

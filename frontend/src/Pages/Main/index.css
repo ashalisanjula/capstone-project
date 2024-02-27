@@ -1,26 +1,24 @@
 /* app.css */
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #090E2E; /* Corrected background color value with # */
+  background-color: #090E2E;
   color: #333;
 }
 
 .wrapper {
   max-width: 400px;
   margin: 50px auto;
-  background-color: black;
-  border-radius: 5px;
+  background-color: #202650;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
 
 .form-box {
   text-align: center;
-}
-
-.form-box.login {
-  color: #007bff; /* Blue color */
+  color: white;
 }
 
 .input-box {
@@ -38,23 +36,33 @@ body {
   padding: 8px;
   box-sizing: border-box;
   margin-bottom: 5px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
+  border: 0.1px solid #ccc;
+  border-radius: 1px;
+  background-color: #090E2E;
+}
+
+.custom-input::placeholder {
+  opacity: 0.4;
 }
 
 .remember-forget {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  color: white;
 }
 
 .btn {
-  background-color: 090E2E;
+  background-color: #090E2E;
   color: #fff;
   padding: 10px 15px;
+  width: 150px;
+  height: 40px;
   border: none;
-  border-radius: 3px;
+  border-radius: 8px;
   cursor: pointer;
+  margin: 0 auto;
+  display: block;
 }
 
 .login-register {
@@ -62,42 +70,32 @@ body {
 }
 
 .register-link {
+  padding: auto;
   color: #007bff;
+  margin-left: 10px;
 }
 
-/* App.css */
-
-/* App.css */
-
-/* App.css */
-
-/* Assuming you have imported the Inter font in your project */
-
-/* Assuming you have imported the Inter font in your project */
-
 nav {
-  background-color: #090E2E; /* Background color for the navigation bar */
-  padding: 10px; /* Padding around the navigation */
+  background-color: #090E2E;
+  padding: 10px;
   text-align: left;
-  
 }
 
 .nav-item {
-  margin: 75px;/* Spacing between navigation items */
-  text-decoration: none; /* Remove default underline on links */
-  color: #dfe2e6; /* Text color - #212529 is a dark gray color */
-  font-family: 'Inter', sans-serif; /* Use Inter font */
-  font-weight: bold; /* Bold font */
+  margin: 75px;
+  text-decoration: none;
+  color: #dfe2e6;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
 }
 
 .nav-item:hover {
-  color: #ffcc00; /* Change text color on hover */
+  color: #ffcc00;
 }
 
-/* Set the navigation bar to spread 100% width of the page */
 nav {
   width: 100%;
-  box-sizing: border-box; /* Include padding in the width calculation */
+  box-sizing: border-box;
 }
 
 .navbar {
@@ -108,100 +106,11 @@ nav {
 }
 
 .login-button {
-  margin-left: auto; /* Move the login button to the right by taking up remaining space */
+  margin-left: auto;
 }
 
 .nav-item {
   margin-right: 10px;
-}
-
-.login-container {
-  /* Your existing styles for login container */
-}
-
-.login-button {
-  background-color:#090E2E; /* Transparent gray background color */
-  color: white; /* White text color */
-  padding: 10px 20px; /* Padding for the button */
-  border: 0.5px solid white; /* White border */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Cursor style on hover */
-  font-size: 16px; /* Font size */
-}
-
-.login-button:hover {
-  background-color:'#6D6D71'; /* Darker green background color on hover */
-}
-
-.register-form {
-  max-width: 300px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f4f4f4;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.register-form h2 {
-  text-align: center;
-  color: #333;
-}
-
-.register-form form {
-  display: flex;
-  flex-direction: column;
-}
-
-.register-form label {
-  margin-bottom: 10px;
-}
-
-.register-form input {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.register-form button {
-  background-color: #514caf;
-  color: #fff;
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.register-form button:hover {
-  background-color: #301877;
-}
-
-/* Add styles for the logo */
-.logo {
-  width: 30px; /* Adjust the width as needed */
-  height: auto;
-  margin-right: 10px; /* Adjust the margin as needed */
-}
-
-/* App.css */
-.app-container {
-  position: relative;
-}
-
-/* App.css */
-.app-container {
-  position: relative;
-}
-
-.background {
-  /* Styles for the background content (excluding the login and register forms) */
-}
-
-.background.blur {
-  filter: blur(45px); /* Adjust the blur amount as needed */
-  /* Add other styles for the blurred background if necessary */
 }
 
 .login-container,
@@ -210,29 +119,39 @@ nav {
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 50%; /* Adjust this value to set the initial vertical position */
+  top: 50%;
   left: 0;
   width: 100%;
-  transform: translateY(-50%); /* Center vertically */
+  transform: translateY(-50%);
 }
 
 .login-form,
 .register-form {
-  /* Add specific styles for the login and register forms if needed */
-}
-
-/* Adjustments for better aesthetics */
-.login-form {
   padding: 20px;
-  background-color: white;
+  background-color: #202650;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.register-form {
-  padding: 20px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+.login-button,
+.register-form button {
+  background-color: #090E2E;
+  color: white;
+  padding: 10px 20px;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
+.login-button:hover,
+.register-form button:hover {
+  background-color: #6D6D71;
+}
+
+/* Add styles for the logo */
+.logo {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
