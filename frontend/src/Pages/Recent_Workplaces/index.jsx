@@ -25,7 +25,7 @@ const Recent_Workplaces = () => {
                 </div>
 
                 <div className='title1'>
-                    <h3>IntegraAlly</h3>
+                    <h3>IntegraAllay</h3>
                 </div>
                 
             </div>
