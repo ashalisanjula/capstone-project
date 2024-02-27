@@ -22,7 +22,7 @@
 }
 
 .tabSection {
-    margin-top: 55px;
+    margin-top: 40px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -54,6 +54,10 @@
     gap: 100px;
 }
 
+.overviewSection .active {
+    border-bottom: 2px solid white;
+}
+
 .collectionOverview {
     color: white;
     font-size: 20px;
@@ -67,8 +71,8 @@
     color: white;
 }
 
-.collectionBox {
-    margin-top: 85px;
+/* .collectionBox {
+    margin-top: 95px;
     margin-left: 320px;
     width: 540px;
 }
@@ -119,4 +123,4 @@
     color: white;
     background: var(--secondary-color);
     letter-spacing: 1.5px;
-}
+} */

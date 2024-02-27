@@ -9,8 +9,13 @@ body {
 
 .wrapper {
   max-width: 400px;
+  max-height: fit-content;
   margin: 50px auto;
+<<<<<<< HEAD
   background-color: #202650;
+=======
+  background-color:#202650;
+>>>>>>> 60ecd8267b7462cb069a5779c151ebdf4cf859f3
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -18,11 +23,19 @@ body {
 
 .form-box {
   text-align: center;
+<<<<<<< HEAD
   color: white;
+=======
+}
+
+.form-box.login {
+  color: white; /* Blue color */
+>>>>>>> 60ecd8267b7462cb069a5779c151ebdf4cf859f3
 }
 
 .input-box {
   margin-bottom: 20px;
+  
 }
 
 .input-box label {
@@ -38,11 +51,21 @@ body {
   margin-bottom: 5px;
   border: 0.1px solid #ccc;
   border-radius: 1px;
+<<<<<<< HEAD
   background-color: #090E2E;
 }
 
 .custom-input::placeholder {
   opacity: 0.4;
+=======
+  background-color: #090E2E; /* Blue color */
+
+
+}
+
+.custom-input::placeholder {
+  opacity: 0.4; /* Adjust the opacity value as needed */
+>>>>>>> 60ecd8267b7462cb069a5779c151ebdf4cf859f3
 }
 
 .remember-forget {
@@ -55,6 +78,7 @@ body {
 .btn {
   background-color: #090E2E;
   color: #fff;
+<<<<<<< HEAD
   padding: 10px 15px;
   width: 150px;
   height: 40px;
@@ -63,7 +87,19 @@ body {
   cursor: pointer;
   margin: 0 auto;
   display: block;
+=======
+  padding: 10px 15px; /* Adjusted padding */
+  width: 150px; /* Set a fixed width */
+  height: 40px; /* Set a fixed height */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 auto; /* Center the button horizontally */
+  display: block;
+  
+>>>>>>> 60ecd8267b7462cb069a5779c151ebdf4cf859f3
 }
+
 
 .login-register {
   margin-top: 20px;
@@ -75,6 +111,10 @@ body {
   margin-left: 10px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 60ecd8267b7462cb069a5779c151ebdf4cf859f3
 nav {
   background-color: #090E2E;
   padding: 10px;
@@ -113,6 +153,98 @@ nav {
   margin-right: 10px;
 }
 
+<<<<<<< HEAD
+=======
+.login-container {
+  /* Your existing styles for login container */
+}
+
+.login-button {
+  background-color:#090E2E; /* Transparent gray background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding for the button */
+  border: 0.5px solid white; /* White border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style on hover */
+  font-size: 16px; /* Font size */
+}
+
+.login-button:hover {
+  background-color:'#6D6D71'; /* Darker green background color on hover */
+}
+
+.register-form {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #202650;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+.register-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form label {
+  margin-bottom: 10px;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-form button {
+  background-color: #514caf;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: #301877;
+}
+
+/* Add styles for the logo */
+.logo {
+  width: 30px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+/* App.css */
+.app-container {
+  position: relative;
+}
+
+/* App.css */
+.app-container {
+  position: relative;
+}
+
+.background {
+  /* Styles for the background content (excluding the login and register forms) */
+}
+
+.background.blur {
+  filter: blur(45px); /* Adjust the blur amount as needed */
+  /* Add other styles for the blurred background if necessary */
+}
+
+>>>>>>> 60ecd8267b7462cb069a5779c151ebdf4cf859f3
 .login-container,
 .register-form-container {
   display: flex;
@@ -128,7 +260,11 @@ nav {
 .login-form,
 .register-form {
   padding: 20px;
+<<<<<<< HEAD
   background-color: #202650;
+=======
+  background-color:#202650;
+>>>>>>> 60ecd8267b7462cb069a5779c151ebdf4cf859f3
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
