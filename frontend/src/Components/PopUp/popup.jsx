@@ -20,7 +20,7 @@ function popup(props) {
                 <input type='text' placeholder='Collection Name' />
             </div>
 
-            <div className='btn'>
+            <div className='create-btn'>
                 <button>Create</button>
             </div>
 
