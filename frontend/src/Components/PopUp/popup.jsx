@@ -32,6 +32,7 @@ function popup(props) {
         </div>
     </div>
   ) : '';
+ 
 }
 
 export default popup;

@@ -4,6 +4,7 @@ import Sidebar from '../../Components/SideBar';
 import Navbar from '../../Components/NavBar';
 import Tabs from '../../Components/TabSection';
 import { useNavigate } from 'react-router-dom';
+import Popup from '../../Components/PopUp/popup';
 
 const Request = () => {
 
@@ -22,11 +23,14 @@ const Request = () => {
     }
 
   return (
+
+        
     <div className='container'>
+        
 
         <div className='sidebar3'>
 
-            <Sidebar />
+            <Sidebar/>
 
         </div>
 
@@ -118,10 +122,13 @@ const Request = () => {
 
                 </div>
 
+    
+
                 
             </div>
 
         </div>
+       
     </div>
   )
 }
