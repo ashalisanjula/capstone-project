@@ -14,6 +14,8 @@ import Search from '../../Assets/search.png';
 import User from '../../Assets/user.png';
 import Popup from '../../Components/PopUp/popup';
 import { useState } from 'react';
+import VreticalLine from '../../VerticalLine/verticalLine';
+import Content from '../../Assets/content.png';
 
 const Collection_Overview = () => {
 
@@ -185,9 +187,60 @@ const Collection_Overview = () => {
                     <button onClick={response}><span>Response</span></button>
                 </div>
 
+                {/* <div className='vertical-line'></div> */}
+
+            </div>
+ 
+
+            <div className='body-content'>
+
+                <div className='left-content'>
+
+                    <button>
+                        <div className='img'>
+                            <img src={Content} alt='' />
+                        </div>
+
+
+                        <div className='add'>
+                            <input type='text' placeholder='Add Workspace Description' />
+                        </div>
+
+                    </button>
+
+                    
+                </div>
+
+                <Popup triger={buttonPopup} setTriger={setButtonPopup}/>
+
+                <div className='right-content'>
+
+                    <div className='vertical'>
+                        <VreticalLine />
+                    </div> 
+
+                    <div className='about'>
+                        <h1>About</h1>
+                        <input className='description' type='text' placeholder='Add a summary about this workspace.'></input>  
+                        <div className='contributor'>
+                            <h1>Contributors</h1>
+                            <span>No contibutors to show</span>
+                        </div>
+                        <button>
+                            <img src={Pluse} alt=' ' />
+                            <div className='invite'>Invite</div>
+                        </button>             
+                    </div>
+
+                </div>
+
             </div>
 
-            <Popup triger={buttonPopup} setTriger={setButtonPopup}/> 
+           
+
+            
+
+            
 
             {/* <div className='collectionBox'>
                 <div className='box'>
