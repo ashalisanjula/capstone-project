@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import Logo from '../../Assets/logo.png';
+import Logo from '../../Assets/logo1.png';
 import Pluse from '../../Assets/plusmath.png';
 import Dis from '../../Assets/disconnected.png';
 import Open from '../../Assets/openEndWrench.png';
@@ -8,8 +8,12 @@ import Time from '../../Assets/timeMachine.png';
 import Next from '../../Assets/nextpage.png';
 import Search from '../../Assets/search.png';
 import User from '../../Assets/user.png';
+// import Popup from '../../Components/PopUp/popup';
+import { useState } from 'react';
 
 const Sidebar = () => {
+
+    // const [buttonPopup, setButtonPopup] = useState(false);
     
   return (
         <div className='sidebar'>
@@ -20,12 +24,12 @@ const Sidebar = () => {
                 </div>
 
                 <div className='title'>
-                    <h3>IntegraAlly</h3>
+                    <h3>IntegraAllay</h3>
                 </div>
                 
             </div>
 
-           <div className='workplace'>
+           <div className='workplace1'>
 
                 <div className='work'>
                     <h3>Workplaces</h3>
@@ -58,17 +62,12 @@ const Sidebar = () => {
                             <span>Setting</span>
                         </div>
 
-                        <div className='icon'>
-                            <img src={Dis} alt='' /><br />
-                            <span>Collections</span>
-                        </div>
-
                     </div>
                 </div>
 
                 <div className='collectionRight'>
                     <div className='top'>
-                        <div className='pluse1'>
+                        <div className='pluse1' >
                             <img src={Pluse} alt='' />
                         </div>
 
@@ -126,6 +125,7 @@ const Sidebar = () => {
                     </div>
                 </div>
             </div>
+
         </div>
   )
 }

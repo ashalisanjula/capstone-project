@@ -30,6 +30,7 @@ const Navbar = () => {
     ]
 
     const navigte = useNavigate();
+    
     const login = () => {
         navigte('/login');
     }

@@ -3,22 +3,23 @@
 }
 
 .sidebar1 {
+    width: 350px;
     margin-top: -6px;
     margin-left: -10px;
-    margin-bottom: -10px;
     height: 100vh;
+    /* margin-bottom: 0px; */
     background: var(--primary-color);
 }
 
 .top_section1 {
-    margin-left: 36px;
-    margin-right: 50px;
+    margin-left: 10px;
+    /* margin-right: 50px; */
     display: flex;
     text-align: center;
 }
 
 .logo1 {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .title1 {
@@ -63,6 +64,8 @@
 }
 
 .hr2 {
+    margin-right: 40px;
+    width: 94%;
     border: 1.5px solid white;
 }
 
