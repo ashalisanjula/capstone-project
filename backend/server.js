@@ -7,7 +7,7 @@ const connectMongo = require('./db-connect');
 const bodyParser = require('body-parser');
 
 
-app.use(bodyParser.urlencoded({
+app.use(bodyParser.urlencoded({ //This middleware configuration allows the application to parse incoming request bodies in URL-encoded and JSON formats.
     extended: true
   }));
 

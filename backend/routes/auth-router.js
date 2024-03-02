@@ -9,6 +9,9 @@ router.post('/signup', (req, res, next) => {
     let username = req.body.username;
     let email = req.body.email;
     let password = req.body.password;
+    // console.log(req.body);    
+    // console.log(username);
+    // console.log(email);
 
     if (!username) {
         res.send({sts: -1, error: 'username is required'});
@@ -19,8 +22,17 @@ router.post('/signup', (req, res, next) => {
     } else {
         authController.singup(req, res);
     }
+});
 
+router.post('/login', (req, res, next) => {
+    let email = req.body.email;
+    let password = req.body.password;
 
+    if (!email || !password) {
+        res.status(400).json({sts: -1, error: 'Email and password required'});
+    } else {
+        authController.signin(req, res);
+    }
 });
 
 // router.post('/signin', 
