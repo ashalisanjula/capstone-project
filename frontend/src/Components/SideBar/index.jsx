@@ -67,7 +67,7 @@ const Sidebar = () => {
 
                 <div className='collectionRight'>
                     <div className='top'>
-                        <div className='pluse1'>
+                        <div className='pluse1' >
                             <img src={Pluse} alt='' />
                         </div>
 

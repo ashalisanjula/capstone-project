@@ -1,0 +1,7 @@
+.vertical-line {
+    width: 3px; 
+    height: 100%;
+    background-color: var(--primary-color); 
+
+  }
+  

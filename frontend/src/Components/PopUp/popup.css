@@ -1,6 +1,6 @@
 .collectionBox {
     margin-top: 50px;
-    margin-left: 320px; 
+    margin-left: -510px;
     width: 540px;
 }
 
@@ -45,14 +45,14 @@
     color: white;
 }
 
-.btn {
+.create-btn {
     margin-top: 80px;
     margin-left: 35px;
     align-items: center;
     width: 404px;
 }
 
-.btn button {
+.create-btn button {
     padding: 10px 0;
     width: 404px;
     text-align: center;
