@@ -1,10 +1,11 @@
 import React from 'react';
-import img1 from "../../Assets/img1.png"
+import logo2 from "../../Assets/logo2.png";
+import img1 from "../../Assets/img1.png";
 import icon1 from '../../Assets/1.png'; 
 import icon2 from '../../Assets/2.png'; 
 import icon3 from '../../Assets/3.png'; 
 import icon4 from '../../Assets/4.png'; 
-import icon5 from '../../Assets/5.png'; // Rename the imported icon file
+import icon5 from '../../Assets/5.png';
 import Navbar from '../../Components/NavBar';
 
 // Move styling constants outside the component
@@ -20,11 +21,19 @@ const headerContainerStyle = {
 };
 
 const logoStyle = {
-  width: '400px',
+  width: '53%',
   height: 'auto',
   boxShadow: '2px 2px 5px rgba(0, 0, 0, 0.2)',
   borderRadius: '10px',
-  marginTop: '5px',
+ 
+};
+
+const logoStyle2 = {
+  width: '20%',
+  height: 'auto',
+  boxShadow: '2px 2px 5px rgba(0, 0, 0, 0.2)',
+  borderRadius: '10px',
+  marginTop: '5%',
 };
 
 const iconStyle = {
@@ -35,14 +44,18 @@ const iconStyle = {
 
 const headingStyle = {
   color: 'white',
-  fontSize: '44px',
+  fontSize: '34px',
   margin: '30px 0',
-  textAlign: 'center',
-};
+  display: 'flex',
+  justifyContent: 'left',
+  marginLeft: '80px',
+  marginTop:'0px'
+}
+
 
 const featureBoxStyle = {
   border: '1px solid #ddd',
-  color: '#6D6D71',
+  color: 'white',
   padding: '15px',
   margin: '10px',
   borderRadius: '10px',
@@ -59,33 +72,88 @@ const featureBoxesContainer = {
   justifyContent: 'space-around',
   flexWrap: 'wrap',
 };
+const maindiv={
+  display:'flex',
+  justifyContent: 'center'
+
+};
+
+const leftContainer = {
+  display: 'flex',
+  flexDirection: 'column',
+  width: '48%',
+};
+const paragraph ={
+  marginTop:'13%',
+
+}
+
+const buttonStyle = {
+  backgroundColor: '#202650',
+  color: 'white',
+  padding: '10px 20px',
+  borderRadius: '10px',
+  marginTop: '5px',
+  cursor: 'pointer',
+  marginLeft: '80px',
+  fontWeight: 'light-bold'
+};
 
 const Home = () => {
   return (
     <div>
       <Navbar />
     <div style={containerStyle}>
-      <div style={headerContainerStyle}>
-        <h1 style={{ color: 'white', fontSize: '84px', letterSpacing: '6px', margin: 30 }}>IntegraAllay</h1>
-        <p style={{ margin: 30, color: '#D8D7E0' }}>Mock-Ready Integration Server: Level Up Your Testing!</p>
+      <div style={maindiv}>
+        <div style={leftContainer}>
+       
+        <div style={headerContainerStyle}>
+  <h1 style={{ color: 'white', fontSize: '84px', letterSpacing: '6px', margin: '30px 0', display: 'flex', alignItems: 'center' }}>
+    <img
+      src={logo2}
+      alt="IntegraAllay Logo - Mock-Ready Integration Server"
+      style={{ ...logoStyle2, marginRight: '20px',  marginTop: '0px',marginLeft: '80px' }} // Added marginRight to create space between the logo and text
+    />
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
+      <span style={{ fontSize: '84px', marginTop: 'px', display: 'block' }}>IntegraAllay</span>
+      <span style={{ fontSize: '15px', marginTop: '20px', display: 'block', letterSpacing: '2px' }}>"Mock-Ready Integration Server: Level Up Your Testing!"</span>
+
+    </div>
+  </h1>
+</div>
+
+
+
+
+
+          <div>
+            <div style={paragraph}>
+              <h3 style={headingStyle}>What is IntegraAllay ?</h3>
+              <p style={{ margin: '30px', color: 'white', textAlign: 'justify',marginLeft: '80px' ,letterSpacing: '2px',fontSize: '12px',lineHeight: '20px' }}>
+  IntegraAllay is a cutting-edge server designed to revolutionize integration testing for front-end developers. 
+  Our platform empowers developers to create mock back-end services, simulate API responses, 
+  and thoroughly test their front-end applications.
+  In situations where the actual back-end is under development, undergoing maintenance, or simply not available for testing, 
+  IntegraAllay steps in as a reliable solution.
+</p>
+<button style={buttonStyle}>Explore</button>
+            </div>
+          </div>
+        </div>
+
+        <img
+          src={img1}
+          alt="IntegraAllay Logo - Mock-Ready Integration Server"
+          style={logoStyle}
+        />
+
+        
+
+        
       </div>
+      
+      <h3 style={{ ...headingStyle, marginTop: '20px' }}>Key Features and Advantages</h3>
 
-      <img
-        src={img1}
-        alt="IntegraAllay Logo - Mock-Ready Integration Server"
-        style={logoStyle}
-      />
-
-      <h3 style={headingStyle}>What is IntegraAllay?</h3>
-      <p style={{ margin: '30px', color: '#6D6D71', textAlign: 'center' }}>
-        IntegraAllay is a cutting-edge server designed to revolutionize integration testing for front-end developers. <br />
-        Our platform empowers developers to create mock back-end services, simulate API responses, <br />
-        and thoroughly test their front-end applications. <br />
-        In situations where the actual back-end is under development, undergoing maintenance, or simply not available for testing, <br />
-        IntegraAllay steps in as a reliable solution.
-      </p>
-
-      <h3 style={headingStyle}>Key Features and Advantages</h3>
 
       <div style={featureBoxesContainer}>
         <div style={featureBoxStyle}>
@@ -129,7 +197,7 @@ const Home = () => {
           <p>Efficient and Confident Development</p>
         </div>
       </div>
-      <h3 style={headingStyle}>Contact Us</h3>
+      <h3 style={{ ...headingStyle, marginTop: '20px' }}>Contact Us</h3>
 
     </div>
     </div>
