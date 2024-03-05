@@ -8,18 +8,23 @@
     margin-top: -20px;
 }
 
-.workplace {
-    margin-top: 60px;
+.workplace1 {
+    margin-top: 35px;
     margin-left: 10px;
 }
 
-.workplace span {
+.workplace1 span {
     color: white;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .overviewSection {
+    margin-top: -3px;
     margin-left: 10px;
+}
+
+.collectionOverview span {
+    font-size: 18px;
 }
 
 .collectionOverview button{
@@ -27,9 +32,9 @@
 }
 
 .requestBox {
-    margin-top: 35px;
-    margin-left: 300px;
-    width: 540px;
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 1000px;
 }
 
 .box {
@@ -38,28 +43,215 @@
     border-radius: 15px;
 }
 
-.box .flex1 {
-    margin-left: 48px;
+.box .top-box {
+    display: flex;
+}
+
+.box .input-bar {
+    height: 40px;
+    width: 820px;
+    margin-left: 10px;
+    margin-right: 25px;
+    display: flex;
+    gap: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.input-bar .method {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.input-bar .method #method-select {
+    width: 100px;
+    background: var(--primary-color);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.method .get {
+    color: green;
+    font-weight: 600;
+}
+
+.method .post {
+    color: orange;
+    font-weight: 600;
+}
+
+.method .put {
+    color: blue;
+    font-weight: 600;
+}
+
+.method .delete {
+    color: red;
+    font-weight: 600;
+}
+
+.input-bar .vl1 {
+    margin-top: 7px;
+    margin-left: -20px;
+    height: 25px;
+}
+
+.input-bar .id,
+.input-bar .url {
+    margin-left: -25px;
+    margin-top: 5px;
+}
+
+.input-bar input {
+    padding: 6px 35px;
+    background: var(--primary-color);
+    outline: none;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+
+.input-bar .vl2 {
+    margin-top: 7px;
+    margin-left: -40px;
+    height: 25px;
+}
+
+.input-bar .url input {
+    width: 370px;
+}
+
+.buttonBox button {
+    margin-top: -2px;
+    width: 100px;
+    padding: 13px 30px;
+    background: var(--secondary-color);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.box .flex {
+    margin-top: 25px;
+    margin-left: 10px;
     margin-right: 48px;
     margin-bottom: 25px;
     display: flex;
-    gap: 30px;
+    gap: 60px;
 }
 
-.box .flex1 .inputBox1 input {
-    width: 184px;
+.box .flex .inputBox input {
+    width: 435px;
     background: var(--primary-color);
     outline: none;
     border: none;
     border-bottom: 2px solid white;
-    font-size: 18px;
-}
-
-.box .flex1 .inputBox1 input:hover {
+    font-size: 16px;
     color: white;
 }
 
-.inputBox {
+.input {
+    display: flex;
+}
+
+.input-table {
+    margin-top: -35px;
+    margin-left: 10px;
+}
+
+.input-table .table-title {
+    color: white;
+}
+
+.input-table table {
+    margin-top: 5px;
+}
+
+.input-table .row1,
+.input-table .row2 {
+    height: 35px;
+}
+
+.blank {
+    width: 60px;
+}
+
+.key,
+.value {
+    color: white;
+}
+
+.row2 .blank img {
+    margin-top: 5px;
+    width: 18px;
+    cursor: pointer;
+}
+
+.row2 .key input,
+.row2 .value input {
+    width: 200px;
+    background: var(--primary-color);
+    outline: none;
+    border: none;
+    padding: 7px;
+    color:white;
+}
+
+.input-table1 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.input-table1 .table-title {
+    color: white;
+}
+
+.input-table1 table {
+    margin-top: 5px;
+}
+
+.input-table1 .row1,
+.input-table1 .row2 {
+    height: 35px;
+}
+
+.input-line {
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+.input-right {
+    margin-left: 30px;
+}
+
+.input-right .right-title {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.input-right .request-btn button {
+    background: var(--secondary-color);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+/*.inputBox {
     margin-bottom: 25px;
     text-align: center;
 }
@@ -107,23 +299,7 @@
 
 .inputBox input:hover {
     color: white;
-}
+} */
 
-.buttonBox {
-    margin-top: 35px;
-    margin-left: 48px;
-    margin-right: 48px;
-}
 
-.buttonBox button {
-    width: 100%;
-    padding: 10px 30px;
-    background: var(--secondary-color);
-    border: none;
-    outline: none;
-    border-radius: 15px;
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-    letter-spacing: 2px;
-}
+
