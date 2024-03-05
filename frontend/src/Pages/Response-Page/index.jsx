@@ -79,7 +79,7 @@ const Response = () => {
                         <input type='text' placeholder='Response Status' />
                     </div>
 
-                    <div className='btn'>
+                    <div className='invite-btn'>
                         <button>Invite</button>
                     </div>
 
