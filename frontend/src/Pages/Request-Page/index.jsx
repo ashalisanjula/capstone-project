@@ -72,7 +72,7 @@ const Request = () => {
 
             </div>
 
-            <div className='workplace1'>
+            <div className='workplace2'>
                 <span>Workplace Name</span>
             </div>
 
