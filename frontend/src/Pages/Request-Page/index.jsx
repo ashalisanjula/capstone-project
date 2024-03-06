@@ -219,88 +219,19 @@ const Request = () => {
                             <div className='right-title'>
                                 <span>Request</span>
                             </div>
+
+                            <hr className='request-hr'/>
+
                             <div className='request-btn'>
                                 <button onClick={click}>View Request</button>
                             </div>
                         </div>
 
                     </div>
-
-                    {/* <div className='input-table'>
-                        <div className='table-title'>
-                            <span>Request Body</span>
-                        </div>
-
-                        <table border={1} borderColor="white">
-
-                            <tr className='row1'>
-                                <th className='blank'></th>
-                                <th className='key'>Key</th>
-                                <th className='value'>Value</th>
-                            </tr>
-
-                            {
-                            inputList.map((x, i) => {
-                                return (
-
-                                <tr className='row2'>
-
-                                    <th className='blank'><img src={Pluse} alt=''onClick={ handleaddclick }/></th>
-
-                                    <td className='key'><input type='text' onChange={ e => handleinputchange(e,i) }/></td>
-
-                                    <td className='value'><input type='text' onChange={ e => handleinputchange(e,i) }/></td>
-
-                                </tr>
-
-                                );
-                            } )}
-                           
-                        </table>
-                       
-
-                    </div>
-
-                    <div className='input-table1'>
-                        <div className='table-title'>
-                            <span>Query Params</span>
-                        </div>
-                        <table border={1} borderColor="white">
-
-                            <tr className='row1'>
-                                <th className='blank'></th>
-                                <th className='key'>Key</th>
-                                <th className='value'>Value</th>
-                            </tr>
-
-                            <tr className='row2'>
-
-                                <th className='blank'><img src={Pluse} alt='' /></th>
-
-                                <td className='key'><input type='text' /></td>
-
-                                <td className='value'><input type='text' /></td>
-
-                            </tr>
-                           
-                        </table>
-                    </div> */}
-
-                    
-
                    
 
-                    
-
-
-                  
-
-                </div>
-
-    
-
-                
             </div>
+         </div>
 
         </div>
        
