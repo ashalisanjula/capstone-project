@@ -221,8 +221,9 @@
 }
 
 .input-line {
-    margin-top: -10px;
+    margin-top: -20px;
     margin-left: 30px;
+    height: 210px;
 }
 
 .input-right {
@@ -233,6 +234,15 @@
     margin-top: -20px;
     margin-bottom: 20px;
     color: white;
+}
+
+.input-right .request-hr {
+    margin-top: -15px;
+    margin-bottom: 20px;
+    margin-left: -30px;
+    width: 400px;
+    color: white;
+    border: 1px solid;
 }
 
 .input-right .request-btn button {
@@ -252,55 +262,7 @@
 
 
 
-/*.inputBox {
-    margin-bottom: 25px;
-    text-align: center;
-}
 
-.inputBox input {
-    width: 400px;
-    padding-top: 10px;
-    background: var(--primary-color);
-    outline: none;
-    border: none;
-    border-bottom: 2px solid white;
-    font-size: 18px;
-}
-
-.methodBox {
-    margin-top: 35px;
-    margin-bottom: 30px;
-    margin-left: 50px;
-}
-
-.methodBox label {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-right: 60px;
-    font-size: 20px;
-    color: white;
-}
-
-.methodBox #method-select {
-    padding: 8px 68px;
-    background: var(--secondary-color);
-    border: 2px solid white;
-    outline: none;
-    border-radius: 15px;
-    color: white;
-    font-size: 14px;
-}
-
-.methodBox option {
-    color: white;
-}
-
-::placeholder {
-    color: white;
-}
-
-.inputBox input:hover {
-    color: white;
-} */
 
 
 
