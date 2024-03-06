@@ -8,7 +8,6 @@ import icon4 from '../../Assets/4.png';
 import icon5 from '../../Assets/5.png';
 import Navbar from '../../Components/NavBar';
 
-// Move styling constants outside the component
 const containerStyle = {
   display: 'flex',
   flexDirection: 'column',
@@ -63,8 +62,8 @@ const featureBoxStyle = {
   textAlign: 'center',
   fontSize: '14px',
   fontWeight: 'bold',
-  width: '200px', // Adjusted width
-  height: '150px', // Adjusted height
+  width: '200px',
+  height: '150px', 
 };
 
 const featureBoxesContainer = {
@@ -90,8 +89,9 @@ const paragraph ={
 
 const buttonStyle = {
   backgroundColor: '#202650',
+  border: 'none',
   color: 'white',
-  padding: '10px 20px',
+  padding: '15px 25px',
   borderRadius: '10px',
   marginTop: '5px',
   cursor: 'pointer',
@@ -101,42 +101,38 @@ const buttonStyle = {
 
 const Home = () => {
   return (
+
     <div>
+
       <Navbar />
+
     <div style={containerStyle}>
       <div style={maindiv}>
         <div style={leftContainer}>
        
-        <div style={headerContainerStyle}>
-  <h1 style={{ color: 'white', fontSize: '84px', letterSpacing: '6px', margin: '30px 0', display: 'flex', alignItems: 'center' }}>
-    <img
-      src={logo2}
-      alt="IntegraAllay Logo - Mock-Ready Integration Server"
-      style={{ ...logoStyle2, marginRight: '20px',  marginTop: '0px',marginLeft: '80px' }} // Added marginRight to create space between the logo and text
-    />
-    <div style={{ display: 'flex', flexDirection: 'column' }}>
-      <span style={{ fontSize: '84px', marginTop: 'px', display: 'block' }}>IntegraAllay</span>
-      <span style={{ fontSize: '15px', marginTop: '20px', display: 'block', letterSpacing: '2px' }}>"Mock-Ready Integration Server: Level Up Your Testing!"</span>
+          <div style={headerContainerStyle}>
+            <h1 style={{ color: 'white', fontSize: '84px', letterSpacing: '6px', margin: '30px 0', display: 'flex', alignItems: 'center' }}>
 
-    </div>
-  </h1>
-</div>
+            <img  src={logo2} alt="IntegraAllay Logo - Mock-Ready Integration Server" style={{ ...logoStyle2, marginRight: '20px',  marginTop: '0px',marginLeft: '80px' }} 
+            />
 
+            <div style={{ display: 'flex', flexDirection: 'column' }}>
+              <span style={{ fontSize: '84px', marginTop: 'px', display: 'block' }}>IntegraAllay</span>
+              <span style={{ fontSize: '15px', marginTop: '20px', display: 'block', letterSpacing: '2px' }}>"Mock-Ready Integration Server: Level Up Your Testing!"</span>
 
+            </div>
+          </h1>
+        </div>
 
+        <div>
+          <div style={paragraph}>
+            <h3 style={headingStyle}>What is IntegraAllay ?</h3>
+            <p style={{ margin: '30px', color: 'white', textAlign: 'justify',marginLeft: '80px' ,letterSpacing: '2px',fontSize: '12px',lineHeight: '20px' }}>
+              IntegraAllay is a cutting-edge server designed to revolutionize integration testing for front-end developers. Our platform empowers developers to create mock back-end services, simulate API responses, and thoroughly test their front-end applications.In situations where the actual back-end is under development, undergoing maintenance, or simply not available for testing, IntegraAllay steps in as a reliable solution.
+            </p>
 
+            <button style={buttonStyle}>Explore</button>
 
-          <div>
-            <div style={paragraph}>
-              <h3 style={headingStyle}>What is IntegraAllay ?</h3>
-              <p style={{ margin: '30px', color: 'white', textAlign: 'justify',marginLeft: '80px' ,letterSpacing: '2px',fontSize: '12px',lineHeight: '20px' }}>
-  IntegraAllay is a cutting-edge server designed to revolutionize integration testing for front-end developers. 
-  Our platform empowers developers to create mock back-end services, simulate API responses, 
-  and thoroughly test their front-end applications.
-  In situations where the actual back-end is under development, undergoing maintenance, or simply not available for testing, 
-  IntegraAllay steps in as a reliable solution.
-</p>
-<button style={buttonStyle}>Explore</button>
             </div>
           </div>
         </div>
