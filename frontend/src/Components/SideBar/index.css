@@ -4,8 +4,7 @@
 }
 
 .top_section {
-    margin-left: 20px;
-    margin-right: 50px;
+    margin-left: 5px;
     display: flex;
     text-align: center;
     gap: 30px;
@@ -39,12 +38,13 @@
 
 .pluse {
     position: absolute;
-    top: 130px;
-    left: 325px;
+    top: 135px;
+    left: 310px;
 }
 
 .pluse img {
-    width: 25px;
+    width: 22px;
+    cursor: pointer;
 }
 
 .hr {
@@ -62,7 +62,7 @@
 }
 
 .collectionLeft {
-    margin-top: 255px;
+    margin-top: 245px;
 }
 
 .icons {
@@ -72,8 +72,8 @@
 
 .icon {
     margin-bottom: 20px;
-    width: 63px;
-    height: 63px;
+    width: 58px;
+    height: 58px;
     padding: 1px;
     border-radius: 15px;
     background: var(--secondary-color);
@@ -82,7 +82,7 @@
 
 .icon img {
     margin-top: 5px;
-    width: 27px;
+    width: 20px;
 }
 
 .icon span {
@@ -92,7 +92,7 @@
 
 .collectionRight {
     margin-top: 5px;
-    width: 245px;
+    width: 230px;
     height: 478px;
     border-radius: 15px;
     background: var(--secondary-color);
@@ -106,7 +106,8 @@
 
 .pluse1 img,
 .search img {
-    width: 25px;
+    width: 22px;
+    cursor: pointer;
 }
 
 .right {
@@ -121,17 +122,18 @@
 }
 
 .icon1 img {
-    width: 20px;
+    width: 18px;
+    cursor: pointer;
 }
 
 .name {
     margin-top: -2px;
     color: white;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .userSection {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .user {
@@ -141,20 +143,20 @@
 }
 
 .userImage img {
-    width: 61px;
+    width: 55px;
 }
 
 .userName {
     color: white;
-    margin-top: -15px;
+    margin-top: -5px;
 }
 
 .userName h3 {
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 1px;
 }
 
 .userName span {
-    font-size: 14px;
+    font-size: 12px;
 }
 
