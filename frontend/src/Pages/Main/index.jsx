@@ -5,13 +5,15 @@ import './index.css';
 import Navbar from '../../Components/NavBar';
 
 const Main = () => {
+
   const [showLogin, setShowLogin] = useState(false);
+
   const [showRegisterForm, setShowRegisterForm] = useState(false);
 
-  // const handleLoginButtonClick = () => {
-  //   setShowLogin(!showLogin);
-  //   setShowRegisterForm(false); 
-  // };
+  const handleLoginButtonClick = () => {
+    setShowLogin(!showLogin);
+    setShowRegisterForm(false); 
+  };
 
   const handleRegisterButtonClick = () => {
     setShowRegisterForm(true);
