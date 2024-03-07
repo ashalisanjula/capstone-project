@@ -25,14 +25,15 @@ const Request = () => {
 
     const [ inputList, setInputList ] = useState([{ key: "", value: "" }]);
 
-    const [ val, setVal ] = useState('Requst Name');
 
-    const click = () => {
-        alert("Your request - " + (val) );
-    }
+    const [ requestName, setRequestName ] = useState('');
+    const [ requestHeader, setRequestHeader ] = useState('Request Headers...');
 
-    const change = event => {
-        setVal(event.target.value);
+    const send = () => {
+        const getRequestName = document.getElementById('requestName').value;
+        const getRequestHeader = document.getElementById('requestHeader').value;
+        setRequestName(getRequestName);
+        setRequestHeader(getRequestHeader);
     }
 
     const handleinputchange = (e, index) => {
@@ -73,7 +74,7 @@ const Request = () => {
             </div>
 
             <div className='workplace2'>
-                <span>Workplace Name</span>
+                <span>MyWork</span>
             </div>
 
             <hr className='hr1' />
@@ -130,7 +131,7 @@ const Request = () => {
                         </div>
 
                         <div className='buttonBox'>
-                            <button>Send</button>
+                            <button onClick={send}>Send</button>
                         </div>
 
                     </div>
@@ -138,11 +139,11 @@ const Request = () => {
                     <div className='flex'>
 
                         <div className='inputBox'>
-                            <input type='text' onChange={change} value={val} />
+                            <input id='requestName' type='text' placeholder='Request Name' />
                         </div>
 
                         <div className='inputBox'>
-                            <input type='text' placeholder='Request Headers' />
+                            <input id='requestHeader' type='text' placeholder='Request Headers' />
                         </div>
                       
                     </div>
@@ -222,9 +223,14 @@ const Request = () => {
 
                             <hr className='request-hr'/>
 
-                            <div className='request-btn'>
-                                <button onClick={click}>View Request</button>
+                            <div className='request-content'>
+                                {requestName=== '' ? 
+                                <p>No responses</p> :
+                                <p>Request Name : {requestName}<br /><br />
+                                   Request Headers : {requestHeader}</p> 
+                                }
                             </div>
+
                         </div>
 
                     </div>
