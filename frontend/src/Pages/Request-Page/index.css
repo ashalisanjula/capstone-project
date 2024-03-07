@@ -245,16 +245,10 @@
     border: 1px solid;
 }
 
-.input-right .request-btn button {
-    background: var(--secondary-color);
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    color: white;
-    font-size: 14px;
-    padding: 10px 20px;
-    cursor: pointer;
+.input-right .request-content {
+    color: gray;
 }
+
 
 
 

@@ -71,6 +71,7 @@ const featureBoxesContainer = {
   justifyContent: 'space-around',
   flexWrap: 'wrap',
 };
+
 const maindiv={
   display:'flex',
   justifyContent: 'center'
@@ -82,9 +83,9 @@ const leftContainer = {
   flexDirection: 'column',
   width: '48%',
 };
+
 const paragraph ={
   marginTop:'13%',
-
 }
 
 const buttonStyle = {
