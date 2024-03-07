@@ -109,6 +109,11 @@
     align-items: center;
 }
 
+.work {
+    display: flex;
+    justify-content: space-between;
+}
+
 .work input {
     width: 366px;
     padding: 12px 8px;
@@ -117,11 +122,15 @@
     border: none;
     border-radius: 15px;
     font-size: 20px;
-}
-
-.work input:hover {
     color: white;
 }
+
+.work img {
+    margin-top: 15px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
 
 .delete img {
     width: 33px;
