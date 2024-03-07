@@ -97,9 +97,10 @@ const buttonStyle = {
   marginTop: '5px',
   cursor: 'pointer',
   marginLeft: '80px',
-  fontWeight: 'light-bold'
+  fontWeight: 'light-bold',
+  fontSize: '18px',
+  letterSpacing: '1px',
 };
-
 const Home = () => {
   return (
 
@@ -132,7 +133,7 @@ const Home = () => {
               IntegraAllay is a cutting-edge server designed to revolutionize integration testing for front-end developers. Our platform empowers developers to create mock back-end services, simulate API responses, and thoroughly test their front-end applications.In situations where the actual back-end is under development, undergoing maintenance, or simply not available for testing, IntegraAllay steps in as a reliable solution.
             </p>
 
-            <button style={buttonStyle}>Explore</button>
+            <button style={buttonStyle}>Get Started</button>
 
             </div>
           </div>
