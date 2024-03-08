@@ -116,7 +116,7 @@ const Home = () => {
     />
     <div style={{ display: 'flex', flexDirection: 'column' }}>
       <span style={{ fontSize: '84px', marginTop: 'px', display: 'block' }}>IntegraAllay</span>
-      <span style={{ fontSize: '15px', marginTop: '20px', display: 'block', letterSpacing: '2px' }}>"Mock-Ready Integration Server: Level Up Your Testing!"</span>
+      <span style={{ fontSize: '15px', marginTop: '60px', display: 'block', letterSpacing: '2px' }}>"Mock-Ready Integration Server: Level Up Your Testing!"</span>
 
     </div>
   </h1>
@@ -152,7 +152,7 @@ const Home = () => {
         
       </div>
       
-      <h3 style={{ ...headingStyle, marginTop: '20px' }}>Key Features and Advantages</h3>
+      <h3 style={{ ...headingStyle, marginTop: '50px' }}>Key Features and Advantages</h3>
 
 
       <div style={featureBoxesContainer}>
@@ -197,7 +197,7 @@ const Home = () => {
           <p>Efficient and Confident Development</p>
         </div>
       </div>
-      <h3 style={{ ...headingStyle, marginTop: '20px' }}>Contact Us</h3>
+      <h3 style={{ ...headingStyle, marginTop: '30px' }}>Contact Us</h3>
 
     </div>
     </div>
