@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  letter-spacing: 2px;
+  font-size: 12px;
+  line-height: 20px;
+  color: white;
+}
+
+
+.title-section,
+.vision-section,
+.founders-section,
+.development-team-section,
+.commitment-section,
+.join-us-section {
+  text-align: center;
+  margin: 100px;
+}

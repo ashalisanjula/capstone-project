@@ -112,15 +112,25 @@ const Home = () => {
       <div style={maindiv}>
         <div style={leftContainer}>
        
-          <div style={headerContainerStyle}>
-            <h1 style={{ color: 'white', fontSize: '84px', letterSpacing: '6px', margin: '30px 0', display: 'flex', alignItems: 'center' }}>
+
+        <div style={headerContainerStyle}>
+  <h1 style={{ color: 'white', fontSize: '84px', letterSpacing: '6px', margin: '30px 0', display: 'flex', alignItems: 'center' }}>
+    <img
+      src={logo2}
+      alt="IntegraAllay Logo - Mock-Ready Integration Server"
+      style={{ ...logoStyle2, marginRight: '20px',  marginTop: '0px',marginLeft: '80px' }} // Added marginRight to create space between the logo and text
+    />
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
+      <span style={{ fontSize: '84px', marginTop: 'px', display: 'block' }}>IntegraAllay</span>
+      <span style={{ fontSize: '15px', marginTop: '60px', display: 'block', letterSpacing: '2px' }}>"Mock-Ready Integration Server: Level Up Your Testing!"</span>
+
 
             <img  src={logo2} alt="IntegraAllay Logo - Mock-Ready Integration Server" style={{ ...logoStyle2, marginRight: '20px',  marginTop: '0px',marginLeft: '80px' }} 
             />
 
             <div style={{ display: 'flex', flexDirection: 'column' }}>
               <span style={{ fontSize: '84px', marginTop: 'px', display: 'block' }}>IntegraAllay</span>
-              <span style={{ fontSize: '15px', marginTop: '20px', display: 'block', letterSpacing: '2px' }}>"Mock-Ready Integration Server: Level Up Your Testing!"</span>
+              <span style={{ fontSize: '15px', marginTop: '60px', display: 'block', letterSpacing: '2px' }}>"Mock-Ready Integration Server: Level Up Your Testing!"</span>
 
             </div>
           </h1>
@@ -150,7 +160,7 @@ const Home = () => {
         
       </div>
       
-      <h3 style={{ ...headingStyle, marginTop: '20px' }}>Key Features and Advantages</h3>
+      <h3 style={{ ...headingStyle, marginTop: '50px' }}>Key Features and Advantages</h3>
 
 
       <div style={featureBoxesContainer}>
@@ -195,7 +205,7 @@ const Home = () => {
           <p>Efficient and Confident Development</p>
         </div>
       </div>
-      <h3 style={{ ...headingStyle, marginTop: '20px' }}>Contact Us</h3>
+      <h3 style={{ ...headingStyle, marginTop: '30px' }}>Contact Us</h3>
 
     </div>
     </div>
