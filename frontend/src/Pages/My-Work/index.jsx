@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-import Sidebar from '../../Components/SideBar';
 import Navbar from '../../Components/NavBar';
 import Tabs from '../../Components/TabSection';
 import { useNavigate } from 'react-router-dom';
@@ -39,7 +38,7 @@ const Collection_Overview = () => {
     <div className='container'>
 
         <div className='sidebar2'>
-            {/* <Sidebar /> */}
+           
             <div className='sidebar'>
                 <div className='top_section'>
 
@@ -186,8 +185,6 @@ const Collection_Overview = () => {
                 <div className='collectionOverview'>
                     <button onClick={response}><span>Response</span></button>
                 </div>
-
-                {/* <div className='vertical-line'></div> */}
 
             </div>
  

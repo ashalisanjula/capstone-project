@@ -9,23 +9,19 @@ const Navbar = () => {
     const nav_links = [
         {
             path: '/home',
-            diplay: 'Home',
+            display: 'Home',
         },
         {
             path: '/about',
-            diplay: 'About',
+            display: 'About',
         },
         {
             path: '/support',
-            diplay: 'Support',
-        },
-        {
-            path: '/explore',
-            diplay: 'Explore',
+            display: 'Support',
         },
         {
             path: '/contact',
-            diplay: 'Contact',
+            display: 'Contact',
         },
     ]
 
@@ -53,7 +49,7 @@ const Navbar = () => {
                         {nav_links.map(link => <Link
                             key={link.path}
                             to={link.path}
-                            href={link.path}>{link.diplay}</Link>)}
+                            href={link.path}>{link.display}</Link>)}
                         <li>
                             <a >
                                 <img onClick={login} src={User} alt='' />
