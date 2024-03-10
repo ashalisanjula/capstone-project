@@ -8,7 +8,9 @@ body {
 }
 
 
-.title-section,
+.title-section1,
+.title-section2,
+.title-section3,
 .vision-section,
 .founders-section,
 .development-team-section,
@@ -32,3 +34,4 @@ body {
   cursor: pointer;
   margin-right: 10px; /* Optional: Add margin between buttons */
 }
+

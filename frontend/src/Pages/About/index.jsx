@@ -44,7 +44,25 @@ const About = () => {
     <div>
       <Navbar />
 
-      <div className="title-section">
+      <div className="title-section1">
+        <h2 className="title">About IntegraAllay</h2>
+        <p>IntegraAllay is a cutting-edge server designed to revolutionize integration testing for front-end developers. 
+  Our platform empowers developers to create mock back-end services, simulate API responses, 
+  and thoroughly test their front-end applications.
+  In situations where the actual back-end is under development, undergoing maintenance, or simply not available for testing, 
+  IntegraAllay steps in as a reliable solution.
+
+</p>
+      </div>
+
+      <div className="title-section3">
+        <h3 className="title">Pioneering Features for Front-End Developers</h3>
+        <p>
+          At IntegraAllay, we are committed to transparency, innovation, and customer satisfaction. Our team collaborates seamlessly to deliver features that cater to the evolving needs of front-end developers. We believe in continuous improvement, and your feedback is invaluable in shaping the future of our platform.
+        </p>
+      </div>
+
+      <div className="title-section2">
         <h2 className="title">Meet the IntegraAllay Team</h2>
         <p>We are a dedicated group of second-year undergraduates embarking on an exciting journey with our capstone project, IntegraAllay. Our team is passionate about reshaping the landscape of front-end integration testing, driven by a collective vision to empower developers with innovative tools.
 As students at Sabaragamuwa University, we bring a fresh perspective and enthusiasm to the field of software development. IntegraAllay is not just a capstone project for us; it's a commitment to excellence and a testament to our dedication to the craft.
