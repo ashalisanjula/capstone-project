@@ -1,10 +1,11 @@
 import React from 'react';
 import Navbar from '../../Components/NavBar';
 import icon1 from '../../Assets/a.jpeg'; 
-import icon2 from '../../Assets/b.png'; 
-import icon3 from '../../Assets/c.png'; 
+import icon2 from '../../Assets/b.jpeg'; 
+import icon3 from '../../Assets/c.jpeg'; 
 import icon4 from '../../Assets/d.jpg'; 
-import icon5 from '../../Assets/e.png';
+import icon5 from '../../Assets/e.jpeg';
+import logo2 from "../../Assets/logo2.png";
 import './index.css';
 
 const About = () => {
@@ -39,11 +40,29 @@ const About = () => {
     borderRadius: '50%', // Add border radius to make the image circular
   };
 
+  const logoStyle2 = {
+    width: '10%',
+    height: 'auto',
+    boxShadow: '2px 2px 5px rgba(0, 0, 0, 0.2)',
+    alignContent: 'center'
+
+  };
+  
 
   return (
     <div>
       <Navbar />
 
+
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <img
+            src={logo2}
+            alt="IntegraAllay Logo - Mock-Ready Integration Server"
+            style={{ ...logoStyle2, alignContent: 'center' }}
+          />
+        </div>
+
+                
       <div className="title-section1">
         <h2 className="title">About IntegraAllay</h2>
         <p>IntegraAllay is a cutting-edge server designed to revolutionize integration testing for front-end developers. 
@@ -54,6 +73,7 @@ const About = () => {
 
 </p>
       </div>
+
 
       <div className="title-section3">
         <h3 className="title">Pioneering Features for Front-End Developers</h3>
