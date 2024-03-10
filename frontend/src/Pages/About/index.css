@@ -7,8 +7,9 @@ body {
   color: white;
 }
 
-
-.title-section,
+.title-section1,
+.title-section2,
+.title-section3,
 .vision-section,
 .founders-section,
 .development-team-section,
@@ -20,7 +21,6 @@ body {
 
 .social-media-links {
   margin: 50px;
-  
 }
 
 .buttonStyle {
