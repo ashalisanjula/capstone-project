@@ -7,7 +7,6 @@ body {
   color: white;
 }
 
-
 .title-section1,
 .title-section2,
 .title-section3,
@@ -22,7 +21,6 @@ body {
 
 .social-media-links {
   margin: 50px;
-  
 }
 
 .buttonStyle {
@@ -34,4 +32,3 @@ body {
   cursor: pointer;
   margin-right: 10px; /* Optional: Add margin between buttons */
 }
-
