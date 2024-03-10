@@ -37,7 +37,7 @@
 
 .myWork span {
     color: white;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .hr1 {
@@ -111,6 +111,7 @@
     outline: none;
     border: none;
     font-size: 18px;
+    color: white;
 }
 
 .right-content {
@@ -126,11 +127,11 @@
 
 .body-content .about {
     margin-left: 20px;
-    margin-top: -45px;
+    margin-top: -40px;
 }
 
 .about h1 {
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     font-weight: 500;
     letter-spacing: 1px;
@@ -178,56 +179,3 @@
     font-size: 15px;
 }
 
-/* .collectionBox {
-    margin-top: 95px;
-    margin-left: 320px;
-    width: 540px;
-}
-
-.box {
-    padding: 20px;
-    background: var(--primary-color);
-    border-radius: 15px;
-}
-
-.inputBox {
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-.inputBox input {
-    width: 400px;
-    padding-top: 10px;
-    background: var(--primary-color);
-    outline: none;
-    border: none;
-    border-bottom: 2px solid white;
-    font-size: 20px;
-}
-
-::placeholder {
-    color: white;
-}
-
-.inputBox input:hover {
-    color: white;
-}
-
-.btn {
-    margin-top: 80px;
-    margin-left: 48px;
-    align-items: center;
-    width: 404px;
-}
-
-.btn button {
-    padding: 10px 0;
-    width: 404px;
-    text-align: center;
-    border: none;
-    border-radius: 15px;
-    font-size: 24px;
-    color: white;
-    background: var(--secondary-color);
-    letter-spacing: 1.5px;
-} */

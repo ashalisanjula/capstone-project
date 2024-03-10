@@ -8,12 +8,8 @@ import Time from '../../Assets/timeMachine.png';
 import Next from '../../Assets/nextpage.png';
 import Search from '../../Assets/search.png';
 import User from '../../Assets/user.png';
-// import Popup from '../../Components/PopUp/popup';
-import { useState } from 'react';
 
 const Sidebar = () => {
-
-    // const [buttonPopup, setButtonPopup] = useState(false);
     
   return (
         <div className='sidebar'>

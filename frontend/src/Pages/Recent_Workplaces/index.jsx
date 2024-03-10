@@ -4,6 +4,7 @@ import Logo from '../../Assets/logo1.png';
 import Pluse from '../../Assets/plusmath.png';
 import User from '../../Assets/user.png';
 import Trash from '../../Assets/fullTrash.png';
+import Next from '../../Assets/nextpage.png';
 import Navbar from '../../Components/NavBar';
 import { useNavigate } from 'react-router-dom';
 
@@ -95,7 +96,12 @@ const Recent_Workplaces = () => {
                 <div className='recentWork'>
                     <div className='recent'>
                         <div className='work'>
-                            <input type='text' placeholder='MyWork' />
+                            <div className='work-text'>
+                                <input type='text' placeholder='MyWork'  />
+                            </div>
+                            <div className='work-img'>
+                                <img src={Next} alt='' onClick={my_work}/>
+                            </div>
                         </div>
 
                         <div className='delete'>
@@ -105,7 +111,12 @@ const Recent_Workplaces = () => {
 
                     <div className='recent'>
                         <div className='work'>
-                            <input type='text' placeholder='NewWorkspace' />
+                            <div className='work-text'>
+                                <input type='text' placeholder='NewWorkSpace'  />
+                            </div>
+                            <div className='work-img'>
+                                <img src={Next} alt='' onClick={my_work}/>
+                            </div>
                         </div>
 
                         <div className='delete'>
@@ -115,7 +126,12 @@ const Recent_Workplaces = () => {
 
                     <div className='recent'>
                         <div className='work'>
-                            <input type='text' placeholder='NewWorkspace2' />
+                            <div className='work-text'>
+                                <input type='text' placeholder='NewWorkSpace2'  />
+                            </div>
+                            <div className='work-img'>
+                                <img src={Next} alt='' onClick={my_work}/>
+                            </div>
                         </div>
 
                         <div className='delete'>
@@ -130,7 +146,7 @@ const Recent_Workplaces = () => {
                     </div>
 
                     <div className='createImg'>
-                        <img src={Pluse} alt='' onClick={my_work} />
+                        <img src={Pluse} alt='' />
                     </div>
                 </div>
 

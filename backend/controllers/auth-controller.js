@@ -9,6 +9,7 @@ exports.singup =  async (req, res, next) => {
         password: req.body.password
     });
 
+    //checking the email and username is exist
     let isEmailExist = User.checkEmailExists(user.email);
     let isUsernameExists = await User.checkUsernameExists(user.username);
 

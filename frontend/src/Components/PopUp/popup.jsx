@@ -3,6 +3,7 @@ import './popup.css';
 import { AiFillCloseCircle } from "react-icons/ai";
 
 function popup(props) {
+
   return (props.triger) ? (
     <div className='collectionBox'>
         <div className='box'>
@@ -23,11 +24,6 @@ function popup(props) {
             <div className='create-btn'>
                 <button>Create</button>
             </div>
-
-            {/* <div className='btn'>
-                <button onClick={() => props.setTriger(false)}>Close</button>
-                { props.children }
-            </div> */}
 
         </div>
     </div>
