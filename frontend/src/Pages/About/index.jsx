@@ -44,6 +44,11 @@ Together, we look forward to a future where IntegraAllay becomes an integral par
             Curious about the faces behind IntegraAllay? Connect with us on social media, follow our blog, and stay updated on the latest developments. We're excited to have you join us on this journey of revolutionizing front-end integration testing.
           </p>
         </div>
+        <div className="social-media-links">
+        <button className="buttonStyle" onClick={() => window.location.href = "https://twitter.com"}>Follow Us on Twitter</button>
+        <button className="buttonStyle" onClick={() => window.location.href = "https://linkedin.com"}>Connect on LinkedIn</button>
+        <button className="buttonStyle" onClick={() => window.location.href = "https://blog.example.com"}>Read Our Blog</button>
+      </div>
 
     </div>
     </div>
