@@ -61,7 +61,7 @@ const featureBoxStyle = {
   borderRadius: '10px',
   backgroundColor:'#090E2E',
   textAlign: 'center',
-  fontSize: '14px',
+  fontSize: '12px',
   fontWeight: 'bold',
   width: '200px', // Adjusted width
   height: '150px', // Adjusted height
