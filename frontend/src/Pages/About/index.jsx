@@ -1,9 +1,43 @@
 import React from 'react';
 import Navbar from '../../Components/NavBar';
+import icon1 from '../../Assets/a.jpeg'; 
+import icon2 from '../../Assets/b.png'; 
+import icon3 from '../../Assets/c.png'; 
+import icon4 from '../../Assets/d.jpg'; 
+import icon5 from '../../Assets/e.png';
 import './index.css';
 
 const About = () => {
 
+  const featureBoxesContainer = {
+    display: 'flex',
+    justifyContent: 'space-around',
+    flexWrap: 'wrap',
+  };
+
+  const featureBoxStyle = {
+    border: '1px solid #ddd',
+    color: 'white',
+    padding: '15px',
+    margin: '5px',
+    borderRadius: '50%', // Change from 100% to 50%
+    backgroundColor: '#090E2E',
+    textAlign: 'center',
+    fontSize: '8px',
+    fontWeight: 'bold',
+    width: '210px',
+    height: '210px', // Increase height to match width
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center', // Center the content
+  };
+
+  const iconStyle = {
+    width: '80%', // Adjust the width as needed
+    height: 'auto',
+    margin: '8px',
+    borderRadius: '50%', // Add border radius to make the image circular
+  };
 
 
   return (
@@ -20,6 +54,34 @@ Together, we look forward to a future where IntegraAllay becomes an integral par
 
 </p>
       </div>
+
+      <div style={featureBoxesContainer}>
+        <div style={featureBoxStyle}>
+          <img src={icon1} alt="User-Created Collections Icon" style={iconStyle} />
+          <p>W.P.D.I.Perera
+            dinethperera@gmailcom
+          </p>
+        </div>
+        <div style={featureBoxStyle}>
+          <img src={icon2} alt="User-Created Collections Icon" style={iconStyle} />
+          <p>Front-End Testing without a Functional Back-End</p>
+        </div>
+        <div style={featureBoxStyle}>
+          <img src={icon3} alt="User-Created Collections Icon" style={iconStyle} />
+          <p>Extensive Request Validation</p>
+        </div>
+        <div style={featureBoxStyle}>
+          <img src={icon4} alt="User-Created Collections Icon" style={iconStyle} />
+          <p>W.P.T.Navodya Pathiranage
+            ttharushipathiranage@gmail.com
+          </p>
+        </div>
+        <div style={featureBoxStyle}>
+          <img src={icon5} alt="User-Created Collections Icon" style={iconStyle} />
+          <p>Efficient and Confident Development</p>
+        </div>
+      </div>
+
 
 
 
