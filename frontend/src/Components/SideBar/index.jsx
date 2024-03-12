@@ -2,9 +2,6 @@ import React from 'react';
 import './index.css';
 import Logo from '../../Assets/logo1.png';
 import Pluse from '../../Assets/plusmath.png';
-import Dis from '../../Assets/disconnected.png';
-import Open from '../../Assets/openEndWrench.png';
-import Time from '../../Assets/timeMachine.png';
 import Next from '../../Assets/nextpage.png';
 import Search from '../../Assets/search.png';
 import User from '../../Assets/user.png';
@@ -40,27 +37,6 @@ const Sidebar = () => {
             <hr className='hr' />
             
             <div className='collectionSection'>
-                <div className='collectionLeft'>
-                    <div className='icons'>
-
-                        <div className='icon'>
-                            <img src={Dis} alt='' /><br />
-                            <span>Collections</span>
-                        </div>
-
-                        <div className='icon'>
-                            <img src={Time} alt='' /><br />
-                            <span>History</span>
-                        </div>
-
-                        <div className='icon'>
-                            <img src={Open} alt='' /><br />
-                            <span>Setting</span>
-                        </div>
-
-                    </div>
-                </div>
-
                 <div className='collectionRight'>
                     <div className='top'>
                         <div className='pluse1' >
@@ -79,7 +55,7 @@ const Sidebar = () => {
                             </div>
 
                             <div className='name'>
-                                <span>Collection names</span>
+                                <span>Project1</span>
                             </div>
 
                         </div>
@@ -90,21 +66,11 @@ const Sidebar = () => {
                             </div>
 
                             <div className='name'>
-                                <span>Collection names</span>
+                                <span>Project2</span>
                             </div>
 
                         </div>
 
-                        <div className='content'>
-                            <div className='icon1'>
-                                <img src={Next} alt='' />
-                            </div>
-
-                            <div className='name'>
-                                <span>Collection names</span>
-                            </div>
-
-                        </div>
                     </div>
                 </div>
             </div>
