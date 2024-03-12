@@ -67,7 +67,7 @@ const Request = () => {
                 
             </div>
             
-            <div className='tabSection'>
+            <div className='tabSection3'>
 
                 <Tabs />
 
@@ -152,7 +152,7 @@ const Request = () => {
                         <div className='input-left'>
                             <div className='input-table'>
                                 <div className='table-title'>
-                                    <span>Request Body</span>
+                                    <span className='requestBody'>Request Body</span>
                                 </div>
 
                                 <table border={1} borderColor="white">
@@ -186,7 +186,7 @@ const Request = () => {
 
                             <div className='input-table1'>
                                 <div className='table-title'>
-                                    <span>Query Params</span>
+                                    <span className='queryParams'>Query Params</span>
                                 </div>
                                 <table border={1} borderColor="white">
 
@@ -218,7 +218,7 @@ const Request = () => {
 
                         <div className='input-right'>
                             <div className='right-title'>
-                                <span>Request</span>
+                                <span className='request'>Request</span>
                             </div>
 
                             <hr className='request-hr'/>
