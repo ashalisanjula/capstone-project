@@ -67,27 +67,6 @@ const Collection_Overview = () => {
                 <hr className='hr' />
             
                 <div className='collectionSection'>
-                    <div className='collectionLeft'>
-                        <div className='icons'>
-
-                            <div className='icon'>
-                                <img src={Dis} alt='' /><br />
-                                <span>Collections</span>
-                            </div>
-
-                            <div className='icon'>
-                                <img src={Time} alt='' /><br />
-                                <span>History</span>
-                            </div>
-
-                            <div className='icon'>
-                                <img src={Open} alt='' /><br />
-                                <span>Setting</span>
-                            </div>
-
-                        </div>
-                    </div>
-
                     <div className='collectionRight'>
                         <div className='top'>
                             <div className='pluse1'>
@@ -106,7 +85,7 @@ const Collection_Overview = () => {
                                 </div>
 
                                 <div className='name'>
-                                    <span>Collection names</span>
+                                    <span>Project1</span>
                                 </div>
 
                             </div>
@@ -117,18 +96,7 @@ const Collection_Overview = () => {
                                 </div>
 
                                 <div className='name'>
-                                    <span>Collection names</span>
-                                </div>
-
-                            </div>
-
-                            <div className='content'>
-                                <div className='icon1'>
-                                    <img src={Next} alt='' />
-                                </div>
-
-                                <div className='name'>
-                                    <span>Collection names</span>
+                                    <span>Project2</span>
                                 </div>
 
                             </div>
@@ -168,7 +136,7 @@ const Collection_Overview = () => {
 
             <hr className='hr1' />
 
-            <div className='overviewSection'>
+            <div className='overviewSection1'>
 
                 <div className='collectionOverview'>
                     <button onClick={collection_overview}>

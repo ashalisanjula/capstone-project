@@ -3,7 +3,7 @@
 }
 
 .sidebar2 {
-    width: 370px;
+    width: 320px;
     margin-top: -10px;
     margin-left: -10px;
     margin-bottom: -10px;
@@ -50,14 +50,14 @@
     margin-right: 10px;
 }
 
-.overviewSection {
+.overviewSection1 {
     margin-top: 15px;
     margin-left: 5px;
     display: flex;
     gap: 100px;
 }
 
-.overviewSection .active {
+.overviewSection1 .active {
     border-bottom: 2px solid white;
 }
 

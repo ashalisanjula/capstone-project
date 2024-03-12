@@ -77,9 +77,9 @@ const Request = () => {
                 <span>MyWork</span>
             </div>
 
-            <hr className='hr1' />
+            <hr className='hr2' />
 
-            <div className='overviewSection'>
+            <div className='overviewSection2'>
 
                 <div className='collectionOverview'>
                     <button onClick={collection_overview}><span>Collection Overview</span></button>
