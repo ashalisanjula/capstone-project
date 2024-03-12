@@ -18,7 +18,7 @@
     margin-left: -10px;
 }
 
-.hr1 {
+.hr2 {
     margin-left: -10px;
 }
 
@@ -27,9 +27,15 @@
     font-size: 20px;
 }
 
-.overviewSection {
-    margin-top: -3px;
+.overviewSection2 {
+    margin-top: 15px;
     margin-left: -10px;
+    display: flex;
+    gap: 100px;
+}
+
+.overviewSection2 .active {
+    border-bottom: 2px solid white;
 }
 
 .collectionOverview span {
