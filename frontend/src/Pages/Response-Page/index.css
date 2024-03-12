@@ -4,6 +4,27 @@
     width: 540px;
 }
 
+.myWork3 {
+    margin-top: 60px;
+    margin-left: -15px;
+    font-size: 22px;
+}
+
+.hr3 {
+    margin-left: -20px;
+}
+
+.overviewSection3 {
+    margin-top: 15px;
+    margin-left: -20px;
+    display: flex;
+    gap: 100px;
+}
+
+.overviewSection3 .active {
+    border-bottom: 2px solid white;
+}
+
 .inputBox {
     margin-bottom: 30px;
     text-align: center;

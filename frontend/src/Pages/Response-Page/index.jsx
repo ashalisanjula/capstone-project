@@ -38,13 +38,13 @@ const Response = () => {
                 <Tabs />
             </div>
 
-            <div className='myWork'>
+            <div className='myWork3'>
                 <span>MyWork</span>
             </div>
 
-            <hr className='hr1' />
+            <hr className='hr3' />
 
-            <div className='overviewSection'>
+            <div className='overviewSection3'>
 
                 <div className='collectionOverview'>
                     <button onClick={collection_overview}><span>Collection Overview</span></button>
