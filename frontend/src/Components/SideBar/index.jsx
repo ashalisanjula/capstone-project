@@ -5,8 +5,19 @@ import Pluse from '../../Assets/plusmath.png';
 import Next from '../../Assets/nextpage.png';
 import Search from '../../Assets/search.png';
 import User from '../../Assets/user.png';
+import { useNavigate } from 'react-router-dom';
 
 const Sidebar = () => {
+
+    const navigate = useNavigate();
+
+    const workspace = () => {
+        navigate('/workspace');
+    }
+
+    const pluse = () => {
+        navigate('/pluse');
+    }
     
   return (
         <div className='sidebar'>
@@ -29,7 +40,7 @@ const Sidebar = () => {
                 </div>
 
                 <div className='pluse'>
-                    <img src={Pluse} alt='' />
+                    <img src={Pluse} alt='' onClick={workspace} />
                 </div>
                 
             </div>
@@ -40,7 +51,7 @@ const Sidebar = () => {
                 <div className='collectionRight'>
                     <div className='top'>
                         <div className='pluse1' >
-                            <img src={Pluse} alt='' />
+                            <img src={Pluse} alt='' onClick={pluse}/>
                         </div>
 
                         <div className='search'>
