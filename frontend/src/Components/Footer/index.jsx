@@ -1,10 +1,15 @@
 import React from "react";
 import "./index.css";
-
-import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
-
+import { Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
 import logo from "../../Assets/logo1.png";
+import { FaYoutube } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { MdLocalPostOffice } from "react-icons/md";
+import { IoMail } from "react-icons/io5";
+import { FaPhoneFlip } from "react-icons/fa6";
 
 const quick_links = [
   {
@@ -50,33 +55,38 @@ const Footer = () => {
         <div className="footerRow">
           <Col lg="3">
             <div className="logo">
+              <div className="footerLogo">
               <img src={logo} alt="" />
+              <h1>IntegraAlly</h1>
+              </div>
+              
               <p>
               IntegraAllay is a cutting-edge server designed to revolutionize integration testing for front-end developers. 
               </p>
 
-              <div className="social_links d-flex align-items-center gap-4">
+              <div className="social_links">
                 <span>
                   <Link to="#">
-                    <i className="ri-youtube-fill"></i>
+                    <FaYoutube />
                   </Link>
                 </span>
                 <span>
                   <Link to="#">
-                    <i className="ri-github-fill"></i>
+                    <FaGithub />
                   </Link>
                 </span>
                 <span>
                   <Link to="#">
-                    <i className="ri-facebook-circle-fill"></i>
+                    <FaFacebook />
                   </Link>
                 </span>
                 <span>
                   <Link to="#">
-                    <i className="ri-instagram-fill"></i>
+                    <FaInstagramSquare />
                   </Link>
                 </span>
               </div>
+
             </div>
           </Col>
           <Col lg="3">
@@ -108,7 +118,7 @@ const Footer = () => {
               <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
                 <h6 className="details">
                   <span>
-                    <i className="ri-map-pin-fill"></i>
+                    <MdLocalPostOffice />
                   </span>
                   Address:
                 </h6>
@@ -118,17 +128,17 @@ const Footer = () => {
               <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
                 <h6 className="details">
                   <span>
-                  <i className="ri-mail-fill"></i>
+                    <IoMail />
                   </span>
                   Email:
                 </h6>
 
-                <p className="details">info@integrally.com</p>
+                <p className="details">info@integraAlly.com</p>
               </ListGroupItem>
               <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
                 <h6 className="details">
                   <span>
-                  <i className="ri-phone-fill"></i>
+                    <FaPhoneFlip />
                   </span>
                   Phone:
                 </h6>
@@ -137,7 +147,7 @@ const Footer = () => {
             </ListGroup>
           </Col>
           </div>
-          <Col lg='12' className="text-center pt-5">
+          <Col lg='12' className="text-center">
             <p className="copyright">Copyrights {year} All rights reserved</p>
           </Col>
       </div>
