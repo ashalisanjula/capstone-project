@@ -185,7 +185,9 @@ const Home = () => {
         </div>
         <h3 style={{ ...headingStyle, marginTop: '30px' }}>Contact Us</h3>
       </div>
+
       <Footer />
+      
     </div>
   );
 };
