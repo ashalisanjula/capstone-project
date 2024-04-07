@@ -7,6 +7,7 @@ import icon2 from '../../Assets/2.png';
 import icon3 from '../../Assets/3.png'; 
 import icon4 from '../../Assets/4.png'; 
 import icon5 from '../../Assets/5.png';
+import Footer from '../../Components/Footer'
 
 const containerStyle = {
   display: 'flex',
@@ -184,6 +185,7 @@ const Home = () => {
         </div>
         <h3 style={{ ...headingStyle, marginTop: '30px' }}>Contact Us</h3>
       </div>
+      <Footer />
     </div>
   );
 };
