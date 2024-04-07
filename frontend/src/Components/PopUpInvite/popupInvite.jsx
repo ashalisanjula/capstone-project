@@ -1,11 +1,11 @@
 import React from 'react';
-import './popup.css';
+import './popupInvite.css';
 import { AiFillCloseCircle } from "react-icons/ai";
 
-function popup(props) {
+function popupInvite(props) {
 
  return (props.triger) ? (
-    <div className='collectionBox'>
+    <div className='inviteBox'>
         <div className='box'>
 
             <div className='close-btn'>
@@ -13,16 +13,16 @@ function popup(props) {
                 { props.children }
             </div>
 
-            <div className='inputBox'>
-                <input type='text' placeholder='Collection ID' />
+            <div className='popup-invite'>
+                <h1>Invite to Members</h1>
             </div>
 
-            <div className='inputBox'>
-                <input type='text' placeholder='Collection Name' />
+            <div className='inputBox-invite'>
+                <input type='text' placeholder='Enter the Email' />
             </div>
 
             <div className='create-btn'>
-                <button onClick={() => props.setTriger(false)}>Create</button>
+                <button onClick={() => props.setTriger(false)}>Invite</button>
             </div>
 
         </div>
@@ -31,4 +31,4 @@ function popup(props) {
  
 }
 
-export default popup;
+export default popupInvite;

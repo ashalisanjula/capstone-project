@@ -12,12 +12,19 @@ import Popup from '../../Components/PopUp/popup';
 import { useState } from 'react';
 import VreticalLine from '../../VerticalLine/verticalLine';
 import Content from '../../Assets/content.png';
+import PopupInvite from '../../Components/PopUpInvite/popupInvite';
 
 const Collection_Overview = () => {
 
     const [buttonPopup, setButtonPopup] = useState(false);
 
+    const [buttonInvite, setButtonInvite] = useState(false);
+
     const navigate = useNavigate();
+
+    const workspace = () => {
+        navigate('/workspace');
+    }
 
     const collection_overview = () => {
         navigate('/collection_overview');
@@ -56,7 +63,7 @@ const Collection_Overview = () => {
                     </div>
 
                     <div className='pluse'>
-                        <img src={Pluse} alt='' />
+                        <img src={Pluse} alt='' onClick={workspace} />
                     </div>
                 
                 </div>
@@ -175,6 +182,8 @@ const Collection_Overview = () => {
 
                 <Popup triger={buttonPopup} setTriger={setButtonPopup}/>
 
+                <PopupInvite triger={buttonInvite} setTriger={setButtonInvite} />
+
                 <div className='right-content'>
 
                     <div className='vertical'>
@@ -190,7 +199,7 @@ const Collection_Overview = () => {
                         </div>
                         <button>
                             <img src={Pluse} alt=' ' />
-                            <div className='invite'>Invite</div>
+                            <div className='invite' onClick={() => setButtonInvite(true)}>Invite</div>
                         </button>             
                     </div>
 
