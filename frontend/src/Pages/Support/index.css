@@ -1,0 +1,32 @@
+/* Support.css */
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  .container h1 {
+    
+    margin-bottom: 20px;
+  }
+  
+  .container ol {
+    list-style-type: decimal;
+    margin-left: 0;
+    padding-left: 20px;
+  }
+  
+  .container li {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  /* Support.css */
+.steps li img {
+    width: 20px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+    margin-left: 10px; /* Add space between text and image */
+  }
+  
