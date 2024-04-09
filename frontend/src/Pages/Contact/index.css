@@ -1,23 +1,21 @@
 /* Support.css */
-.content {
+.c-content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.content .title {
+.c-content .c-title {
   margin-bottom: 5px;
 }
 
-
-.content p {
+.c-content p {
   text-align: center;
   margin: 80px;
   margin-top: 5px;
 }
 
-
-.contact {
+.c-contact {
   position: relative;
   min-height: 100vh;
   padding: 50px 100px;
@@ -28,10 +26,7 @@
   background-size: cover;
 }
 
-
-
-
-.container {
+.c-container {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -39,31 +34,29 @@
   margin-top: 30px;
 }
 
-.container .contactForm {
+.c-container .c-contactForm {
   width: 40%;
   padding: 20px;
   border: 2px solid white; /* White color border with 2px width */
   border-radius: 20px;
   align-items: center;
- 
 }
 
-
-.contactForm h2 {
+.c-contactForm h2 {
   font-size: 20px;
   color: white;
   font-weight: 500;
   align-items: center;
 }
 
-.inputbox {
+.c-inputbox {
   position: relative;
   width: 100%;
   margin-top: 10px;
 }
 
-.contactForm .inputbox input,
-.contactForm .inputbox textarea {
+.c-contactForm .c-inputbox input,
+.c-contactForm .c-inputbox textarea {
   width: 100%;
   padding: 5px 0;
   font-size: 16px;
@@ -74,7 +67,7 @@
   resize: none;
 }
 
-.inputbox span {
+.c-inputbox span {
   position: absolute;
   left: 0;
   padding: 5px 0;
@@ -85,16 +78,16 @@
   color: #666;
 }
 
-.contactForm .inputbox input:focus ~ span,
-.contactForm .inputbox input:valid ~ span,
-.contactForm .inputbox textarea:focus ~ span,
-.contactForm .inputbox textarea:valid ~ span {
+.c-contactForm .c-inputbox input:focus ~ span,
+.c-contactForm .c-inputbox input:valid ~ span,
+.c-contactForm .c-inputbox textarea:focus ~ span,
+.c-contactForm .c-inputbox textarea:valid ~ span {
   color: #202650;
   font-size: 12px;
   transform: translateY(-20px);
 }
 
-.contactForm .inputbox input[type="submit"] {
+.c-contactForm .c-inputbox input[type="submit"] {
   width: 100px;
   background: #202650;
   color: #fff;
@@ -105,6 +98,6 @@
   border-radius: 50px;
 }
 
-.detail{
-font-size: medium;
+.detail {
+  font-size: medium;
 }
