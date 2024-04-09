@@ -10,7 +10,7 @@ body {
   max-width: 400px;
   margin: 50px auto;
   background-color:202650;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow:202650;
   padding: 20px;
 }
@@ -19,8 +19,8 @@ body {
   text-align: center;
 }
 
-.form-box h2 {
-  font-size: 30px;
+.form-box.login {
+  color: #007bff; /* Blue color */
 }
 
 .input-box {
@@ -161,7 +161,7 @@ nav {
   padding: 8px;
   margin-bottom: 10px;
   box-sizing: border-box;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 4px;
 }
 

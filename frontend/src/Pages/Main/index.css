@@ -43,11 +43,12 @@ body {
   margin-bottom: 5px;
   border: 0.1px solid #ccc;
   border-radius: 1px;
-  background-color: #090E2E;
+  background-color: white;
 }
 
 .custom-input::placeholder {
-  opacity: 0.4; 
+  opacity: 0.8; 
+  color: #090E2E;
 }
 
 .remember-forget {
