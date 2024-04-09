@@ -1,4 +1,21 @@
-.contact {
+/* Support.css */
+.c-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.c-content .c-title {
+  margin-bottom: 5px;
+}
+
+.c-content p {
+  text-align: center;
+  margin: 80px;
+  margin-top: 5px;
+}
+
+.c-contact {
   position: relative;
   min-height: 100vh;
   padding: 50px 100px;
@@ -6,81 +23,40 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   background-size: cover;
 }
-.content {
-  max-width: 800px;
-  text-align: center;
-}
-.content h2 {
-  font-size: 100px;
-  font-weight: 500;
-  color: white;
-  font-family: "poppins";
-}
-.content p {
-  font-weight: 300;
-  color: white;
-  font-size: 20px;
-  font-family: "poppins";
-}
-.container {
+
+.c-container {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
 }
-.container .contactInfo {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-}
-.container .contactInfo .box {
-  position: relative;
-  padding: 20px 0;
-  display: flex;
-}
-.container .contactInfo .box .icon {
-  min-width: 60px;
-  height: 60px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  font-size: 22px;
-}
-.text {
-  display: flex;
-  margin-left: 20px;
-  font-size: 16px;
-  color: white;
-  flex-direction: column;
-  font-weight: 500;
-}
-.text h3 {
-  font-weight: 500;
-  color: #00bcd4;
-}
-.contactForm {
+
+.c-container .c-contactForm {
   width: 40%;
-  padding: 40px;
-  background: #fff;
+  padding: 20px;
+  border: 2px solid white; /* White color border with 2px width */
+  border-radius: 20px;
+  align-items: center;
 }
-.contactForm h2 {
-  font-size: 30px;
-  color: #333;
+
+.c-contactForm h2 {
+  font-size: 20px;
+  color: white;
   font-weight: 500;
+  align-items: center;
 }
-.inputbox {
+
+.c-inputbox {
   position: relative;
   width: 100%;
   margin-top: 10px;
 }
-.contactForm .inputbox input,
-.contactForm .inputbox textarea {
+
+.c-contactForm .c-inputbox input,
+.c-contactForm .c-inputbox textarea {
   width: 100%;
   padding: 5px 0;
   font-size: 16px;
@@ -90,46 +66,38 @@
   outline: none;
   resize: none;
 }
-.inputbox span {
+
+.c-inputbox span {
   position: absolute;
   left: 0;
   padding: 5px 0;
-  font-size: 16px;
+  font-size: 14px;
   margin: 10px 0;
   pointer-events: none;
   transition: 0.5s;
   color: #666;
 }
-.contactForm .inputbox input:focus ~ span,
-.contactForm .inputbox input:valid ~ span,
-.contactForm .inputbox textarea:focus ~ span,
-.contactForm .inputbox textarea:valid ~ span {
-  color: #e91e63;
+
+.c-contactForm .c-inputbox input:focus ~ span,
+.c-contactForm .c-inputbox input:valid ~ span,
+.c-contactForm .c-inputbox textarea:focus ~ span,
+.c-contactForm .c-inputbox textarea:valid ~ span {
+  color: #202650;
   font-size: 12px;
   transform: translateY(-20px);
 }
-.contactForm .inputbox input[type="submit"] {
+
+.c-contactForm .c-inputbox input[type="submit"] {
   width: 100px;
-  background: #00bcd4;
+  background: #202650;
   color: #fff;
-  border: none;
+  border: 20px;
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
+  border-radius: 50px;
 }
-/* @media (max-width:991px) { 
-      .contact{ 
-          padding:50px; 
-      } 
-      .container{ 
-          flex-direction:column; 
-      } 
-      .container .contactInfo{ 
-          margin-bottom:40px; 
-   
-      } 
-      .container .contactInfo ,.contactForm{ 
-          width: 100%; 
-           
-      }  
-  }*/
+
+.detail {
+  font-size: medium;
+}
