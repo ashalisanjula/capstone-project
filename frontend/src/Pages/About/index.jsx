@@ -1,10 +1,11 @@
 import React from 'react';
 import Navbar from '../../Components/NavBar';
-import icon1 from '../../Assets/a.jpeg'; 
-import icon2 from '../../Assets/b.jpeg'; 
-import icon3 from '../../Assets/c.jpeg'; 
+import Footer from '../../Components/Footer';
+import icon1 from '../../Assets/a.jpg'; 
+import icon2 from '../../Assets/b.jpg'; 
+import icon3 from '../../Assets/c.jpg'; 
 import icon4 from '../../Assets/d.jpg'; 
-import icon5 from '../../Assets/e.jpeg';
+import icon5 from '../../Assets/e.jpg';
 import logo2 from "../../Assets/logo2.png";
 import './index.css';
 
@@ -34,7 +35,7 @@ const About = () => {
   };
 
   const iconStyle = {
-    width: '80%', // Adjust the width as needed
+    width: '40%', // Adjust the width as needed
     height: 'auto',
     margin: '8px',
     borderRadius: '50%', // Add border radius to make the image circular
@@ -96,27 +97,33 @@ Together, we look forward to a future where IntegraAllay becomes an integral par
       <div style={featureBoxesContainer}>
         <div style={featureBoxStyle}>
           <img src={icon1} alt="User-Created Collections Icon" style={iconStyle} />
-          <p>W.P.D.I.Perera
-            dinethperera@gmailcom
+          <p>A.S. Samaraweera
+          samaraweera@std.appsc.sab.ac.lk
           </p>
         </div>
         <div style={featureBoxStyle}>
           <img src={icon2} alt="User-Created Collections Icon" style={iconStyle} />
-          <p>Front-End Testing without a Functional Back-End</p>
+          <p>H.M.H.N. Pilapitiya
+          hnpilapitiya@std.appsc.sab.ac.lk
+          </p>
         </div>
         <div style={featureBoxStyle}>
           <img src={icon3} alt="User-Created Collections Icon" style={iconStyle} />
-          <p>Extensive Request Validation</p>
+          <p>K.G.Y. Dilmith
+          ydilmith@std.appsc.sab.ac.lk
+          </p>
         </div>
         <div style={featureBoxStyle}>
           <img src={icon4} alt="User-Created Collections Icon" style={iconStyle} />
           <p>W.P.T.Navodya Pathiranage
-            ttharushipathiranage@gmail.com
+          pathirage@std.appsc.sab.ac.lk
           </p>
         </div>
         <div style={featureBoxStyle}>
           <img src={icon5} alt="User-Created Collections Icon" style={iconStyle} />
-          <p>Efficient and Confident Development</p>
+          <p>H.M. Shanuka Deshan
+          herath@std.appsc.sab.ac.lk
+          </p>
         </div>
       </div>
 
@@ -151,6 +158,7 @@ Together, we look forward to a future where IntegraAllay becomes an integral par
       </div>
 
     </div>
+    <Footer/>
     </div>
   );
 };
