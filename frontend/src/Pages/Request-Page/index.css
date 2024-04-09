@@ -8,9 +8,18 @@
     margin-top: -20px;
 }
 
+.tabSection3 {
+    margin-right: 10px;
+    margin-left: -10px;
+}
+
 .workplace2 {
-    margin-top: 55px;
-    margin-left: 10px;
+    margin-top: 45px;
+    margin-left: -10px;
+}
+
+.hr2 {
+    margin-left: -10px;
 }
 
 .workplace2 span {
@@ -18,9 +27,15 @@
     font-size: 20px;
 }
 
-.overviewSection {
-    margin-top: -3px;
-    margin-left: 10px;
+.overviewSection2 {
+    margin-top: 15px;
+    margin-left: -10px;
+    display: flex;
+    gap: 100px;
+}
+
+.overviewSection2 .active {
+    border-bottom: 2px solid white;
 }
 
 .collectionOverview span {
@@ -164,8 +179,10 @@
     margin-left: 10px;
 }
 
-.input-table .table-title {
+.input-table .requestBody {
     color: white;
+    font-size: 16px;
+    letter-spacing: 0px;
 }
 
 .input-table table {
@@ -184,6 +201,9 @@
 .key,
 .value {
     color: white;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-weight: 200;
 }
 
 .row2 .blank img {
@@ -207,8 +227,10 @@
     margin-left: 10px;
 }
 
-.input-table1 .table-title {
+.input-table1 .queryParams {
     color: white;
+    font-size: 16px;
+    letter-spacing: 0px;
 }
 
 .input-table1 table {
@@ -232,8 +254,10 @@
 
 .input-right .right-title {
     margin-top: -20px;
+    font-size: 16px;
     margin-bottom: 20px;
     color: white;
+    letter-spacing: 0px;
 }
 
 .input-right .request-hr {
@@ -246,6 +270,7 @@
 }
 
 .input-right .request-content {
+    font-size: 14px;
     color: gray;
 }
 

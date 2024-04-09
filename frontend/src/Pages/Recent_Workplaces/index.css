@@ -3,28 +3,30 @@
 }
 
 .sidebar1 {
-    width: 350px;
+    width: 330px;
     margin-top: -6px;
     margin-left: -10px;
     height: 100vh;
-    /* margin-bottom: 0px; */
     background: var(--primary-color);
 }
 
 .top_section1 {
-    margin-left: 10px;
-    /* margin-right: 50px; */
+    margin-left: 8px;
     display: flex;
     text-align: center;
 }
 
 .logo1 {
-    padding-top: 20px;
+    padding-top: 12px;
+}
+
+.logo1 img {
+    width: 65px;
 }
 
 .title1 {
     color: white;
-    font-size: 32px;
+    font-size: 30px;
     letter-spacing: 3px;
 }
 
@@ -57,12 +59,6 @@
     margin-left: 20px;
 }
 
-.functionTitle {
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-}
-
 .hr2 {
     margin-right: 40px;
     width: 94%;
@@ -86,7 +82,7 @@
 }
 
 .userSection1 {
-    margin-top: 85px;
+    margin-top: 125px;
 }
 
 .recentSection {

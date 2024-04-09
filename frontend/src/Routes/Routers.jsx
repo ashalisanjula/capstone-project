@@ -27,6 +27,8 @@ const Routers = () => {
         <Route path='/collection_overview' element={<My_Work/>} />
         <Route path='/request' element={<Request/>} />
         <Route path='/response' element={<Response/>} />
+        <Route path='/workspace' element={<Recent_Workplaces/>} />
+        <Route path='/pluse' element={<My_Work/>} />
     </Routes>
   )
 }

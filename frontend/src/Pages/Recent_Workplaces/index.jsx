@@ -41,9 +41,6 @@ const Recent_Workplaces = () => {
             </div>
             
             <div className='functionSection'>
-                <div className='functionTitle'>
-                    <span>Create new team</span>
-                </div>
 
                 <hr className='hr2' />       
 
@@ -146,7 +143,7 @@ const Recent_Workplaces = () => {
                     </div>
 
                     <div className='createImg'>
-                        <img src={Pluse} alt='' />
+                        <img src={Pluse} alt='' onClick={my_work} />
                     </div>
                 </div>
 

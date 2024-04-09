@@ -5,9 +5,6 @@ import Tabs from '../../Components/TabSection';
 import { useNavigate } from 'react-router-dom';
 import Logo from '../../Assets/logo1.png';
 import Pluse from '../../Assets/plusmath.png';
-import Dis from '../../Assets/disconnected.png';
-import Open from '../../Assets/openEndWrench.png';
-import Time from '../../Assets/timeMachine.png';
 import Next from '../../Assets/nextpage.png';
 import Search from '../../Assets/search.png';
 import User from '../../Assets/user.png';
@@ -15,12 +12,19 @@ import Popup from '../../Components/PopUp/popup';
 import { useState } from 'react';
 import VreticalLine from '../../VerticalLine/verticalLine';
 import Content from '../../Assets/content.png';
+import PopupInvite from '../../Components/PopUpInvite/popupInvite';
 
 const Collection_Overview = () => {
 
     const [buttonPopup, setButtonPopup] = useState(false);
 
+    const [buttonInvite, setButtonInvite] = useState(false);
+
     const navigate = useNavigate();
+
+    const workspace = () => {
+        navigate('/workspace');
+    }
 
     const collection_overview = () => {
         navigate('/collection_overview');
@@ -59,7 +63,7 @@ const Collection_Overview = () => {
                     </div>
 
                     <div className='pluse'>
-                        <img src={Pluse} alt='' />
+                        <img src={Pluse} alt='' onClick={workspace} />
                     </div>
                 
                 </div>
@@ -67,27 +71,6 @@ const Collection_Overview = () => {
                 <hr className='hr' />
             
                 <div className='collectionSection'>
-                    <div className='collectionLeft'>
-                        <div className='icons'>
-
-                            <div className='icon'>
-                                <img src={Dis} alt='' /><br />
-                                <span>Collections</span>
-                            </div>
-
-                            <div className='icon'>
-                                <img src={Time} alt='' /><br />
-                                <span>History</span>
-                            </div>
-
-                            <div className='icon'>
-                                <img src={Open} alt='' /><br />
-                                <span>Setting</span>
-                            </div>
-
-                        </div>
-                    </div>
-
                     <div className='collectionRight'>
                         <div className='top'>
                             <div className='pluse1'>
@@ -106,7 +89,7 @@ const Collection_Overview = () => {
                                 </div>
 
                                 <div className='name'>
-                                    <span>Collection names</span>
+                                    <span>Project1</span>
                                 </div>
 
                             </div>
@@ -117,18 +100,7 @@ const Collection_Overview = () => {
                                 </div>
 
                                 <div className='name'>
-                                    <span>Collection names</span>
-                                </div>
-
-                            </div>
-
-                            <div className='content'>
-                                <div className='icon1'>
-                                    <img src={Next} alt='' />
-                                </div>
-
-                                <div className='name'>
-                                    <span>Collection names</span>
+                                    <span>Project2</span>
                                 </div>
 
                             </div>
@@ -168,7 +140,7 @@ const Collection_Overview = () => {
 
             <hr className='hr1' />
 
-            <div className='overviewSection'>
+            <div className='overviewSection1'>
 
                 <div className='collectionOverview'>
                     <button onClick={collection_overview}>
@@ -210,6 +182,8 @@ const Collection_Overview = () => {
 
                 <Popup triger={buttonPopup} setTriger={setButtonPopup}/>
 
+                <PopupInvite triger={buttonInvite} setTriger={setButtonInvite} />
+
                 <div className='right-content'>
 
                     <div className='vertical'>
@@ -225,7 +199,7 @@ const Collection_Overview = () => {
                         </div>
                         <button>
                             <img src={Pluse} alt=' ' />
-                            <div className='invite'>Invite</div>
+                            <div className='invite' onClick={() => setButtonInvite(true)}>Invite</div>
                         </button>             
                     </div>
 
