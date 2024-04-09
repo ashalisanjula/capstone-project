@@ -1,5 +1,9 @@
 import React from 'react';
 import Navbar from '../../Components/NavBar';
+<<<<<<< HEAD
+import Footer from "../../Components/Footer";
+=======
+>>>>>>> 6e67846f34ddde9e5d1774ff77f1e16a37069ef8
 import icon1 from '../../Assets/a.jpg'; 
 import icon2 from '../../Assets/b.jpg'; 
 import icon3 from '../../Assets/c.jpg'; 
@@ -157,7 +161,11 @@ Together, we look forward to a future where IntegraAllay becomes an integral par
       </div>
 
     </div>
+<<<<<<< HEAD
+    <Footer />
+=======
   
+>>>>>>> 6e67846f34ddde9e5d1774ff77f1e16a37069ef8
     </div>
   );
 };
